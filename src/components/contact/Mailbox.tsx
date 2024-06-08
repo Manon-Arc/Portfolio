@@ -56,7 +56,6 @@ const Mailbox = () => {
                     required
                     value={formData.nom}
                     onChange={handleChange}
-                    autoComplete="name"
                   />
                   <input
                     type="text"
@@ -74,7 +73,6 @@ const Mailbox = () => {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    autoComplete="email"
                   />
                 <input
                   type="text"

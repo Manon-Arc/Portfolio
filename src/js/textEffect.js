@@ -1,11 +1,16 @@
 const texteComplet = "Développeuse informatique";
   
-// Temps de délai entre chaque lettre (en millisecondes)
 const vitesseEcriture = 110;
 const vitesseEffacement = 50;
 const pauseAvantEffacement = 1200;
 
-function ecrireTexte() {
+var IsRunning = false
+
+export function ecrireTexte() {
+  if (IsRunning){
+    return;
+  }
+  IsRunning = true
   let index = 0;
   var intervalEcriture = setInterval(function() {
     var texteActuel = document.getElementById("animation_machine").textContent;
@@ -29,6 +34,7 @@ function effacerTexte() {
     if (index < 0) {
       clearInterval(intervalEffacement);
       setTimeout(function() {
+        IsRunning = false;
         ecrireTexte();
       }, pauseAvantEffacement);
     }

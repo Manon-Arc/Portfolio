@@ -3,7 +3,7 @@ const template = "template_portfolio";
 
 emailjs.init("99umhq8lrWPBSiJLM");
 
-export function SendEmail(nom, email, message, motif, onSuccess, onError) {
+export function SendEmail(nom, prenom, email, message, motif, onSuccess, onError) {
   if (!validerEmail(email)) {
     alert('Veuillez saisir une adresse e-mail valide.');
     return;

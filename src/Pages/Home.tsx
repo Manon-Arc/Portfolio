@@ -1,13 +1,10 @@
-import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import React from 'react';
+import Accueil from '../components/home/Accueil';
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      <Footer />
-      <p>coucou home</p>
+      <Accueil />
     </div>
   )
 }
