@@ -1,0 +1,241 @@
+:root {
+    --title : #F0F0F0;
+    --txt : #CECECE;
+    --main-green : #2c5758;
+    --desktopComp : #323232;
+    --footer : #393939;
+    --gradiant-black : linear-gradient(66deg, #1E1E1E 13.45%, #2F2F2F 78.23%);
+    --gradiant-green : linear-gradient(93deg, #2c5758 0.03%, #3c8e90 100.03%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(66deg, #1E1E1E 13.45%, #2F2F2F 78.23%);
+    min-height: 100dvh;
+    width: 100dvw;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+.txt-intro {
+    font-size: 3rem;
+    color: var(--title);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    width: fit-content;
+}
+.txt-title {
+    font-size: 2rem;
+    color: var(--txt);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.txt-real {
+    font-size: 4rem;
+    color: var(--title);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.txt-subtitle {
+    font-size: 1.25rem;
+    color: var(--txt);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.txt {
+    color: var(--txt);
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+}
+
+.txt-category {
+    font-size: 1rem;
+    color: var(--title);
+    font-family: "Inter", sans-serif;
+}
+
+.txt-contact-style {
+    font-size: 1rem;
+    color: var(--title);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.soulignement {
+    text-decoration: underline;
+}
+
+.selected {
+    color: var(--main-green);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.selected-category {
+    font-weight: bold;
+    color: var(--title);
+}
+
+.txt-category-real {
+    font-family: "Inter", sans-serif;
+    color: var(--txt);
+    font-weight: medium;
+}
+
+.txt-category-real:hover {
+    cursor: pointer;
+}
+
+.txt-Portfolio {
+    font-size: 1.3rem;
+    color: var(--main-green);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.txt-contact {
+    font-size: 2rem;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.logiciel-link {
+    color: var(--txt);
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-size: small;
+}
+
+.name {
+    color: var(--txt);
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.txt-btn {
+    color: var(--title);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 1rem;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: var(--gradiant-green);
+}
+
+.line {
+    background-color: var(--main-green);
+    width: 2dvw;
+    height: 0.4dvh;
+}
+
+.title-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.pic-spe {
+    width: 6dvw;
+    aspect-ratio: 1/1;
+}
+
+.spe-title {
+    color: var(--title);
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+.link-proj {
+    color: var(--txt);
+
+}
+
+.link-proj:hover{
+    color: var(--main-green);
+    text-decoration: underline;
+}
+
+.logo-link {
+    position: relative;
+    display: inline-block;
+}
+
+.contact-txt {
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    bottom: 0.9dvh;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.logo-link:hover .contact-txt {
+    opacity: 1;
+}
+
+.logo-link:hover img {
+    transform: translateX(-2dvw);  
+}
+
+.droits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.txt-droits {
+    color: var(--txt);
+    font-family: "Inter", sans-serif;
+    font-size: small;
+    font-weight: 200;
+}
+
+.name-footer {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 2dvw;
+    aspect-ratio: 1/1;
+    background: var(--gradiant-green);
+    margin-top: 2dvh;
+}
+
+.btn-more img{
+    width: 1dvw;
+    aspect-ratio: 1/1;
+}

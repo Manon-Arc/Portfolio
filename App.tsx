@@ -1,26 +1,20 @@
 import React from 'react';
-import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
-import Home from './Pages/Home';
-import Login from './Pages/auth/Login';
-import Register from './Pages/auth/Register';
-import Header from './components/nav/Header';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './src/Pages/Home';
+import Experience from './src/Pages/Experience';
+import Contact from './src/Pages/Contact';
+import Realisation from './src/Pages/Realisation';
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<Header />}>
-      <Route index element={<Home />} />
-      <Route path="login" element={<Login />} />
-      <Route path="register" element={<Register />} />
-    </Route>
-  )
-)
-
-function App({}) {
-
+function App() {
   return (
-    <>
-      <RouterProvider router={router}/>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/realisation" element={<Realisation />} />
+      </Routes>
+    </Router>
   );
 }
 

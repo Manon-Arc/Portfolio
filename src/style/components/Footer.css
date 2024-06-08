@@ -1,0 +1,33 @@
+.footer {
+    position: relative;
+    width: 100dvw;
+    height: 25dvh;
+    background: var(--footer);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7dvw;
+    margin: 5dvh;
+}
+
+.logo-footer img {
+    width: 1.5dvw;
+    aspect-ratio: 1/1;
+    transition: transform 0.3s ease;
+}
+
+.circuit-footer {
+    position: absolute;
+    width: 17dvw;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+}
