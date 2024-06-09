@@ -1,0 +1,50 @@
+.sec-3 {
+    background-color: var(--desktopComp);
+    background-size: cover;
+    width: 100dvw;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-zone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 3rem ;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18dvw;
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+    background: #404040;
+    box-shadow: 6px 10px 6px 2px rgba(14, 14, 14, 0.25);
+    z-index: 2;
+}
+
+.div-icon {
+    aspect-ratio: 1/1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    opacity: 0;
+}
+
+.div-icon img {
+    width: 3dvw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

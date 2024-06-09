@@ -11,10 +11,10 @@ const Header = () => {
   };
 
   const categories = [
-    { name: 'Accueil', link: '/#0' },
+    { name: 'Accueil', link: '/' },
     { name: 'A propos', link: '/#1' },
     { name: 'Compétences', link: '/#2' },
-    { name: 'Réalisations', link: '/realisation' },
+    { name: 'Réalisations', link: '/realisations' },
     { name: 'Experiences', link: '/experience' },
     { name: 'Contact', link: '/contact' },
   ];
@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-left">
-        <a href="index.html">
+        <a href="/">
           <img src={portfolioLogo} alt="Portfolio Logo" />
         </a>
       </div>

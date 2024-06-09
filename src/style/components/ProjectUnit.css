@@ -1,0 +1,150 @@
+.project-unit {
+    height: 50dvh;
+    width: 100dvw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.G {
+    background-image: url(../../assets/realisations/projUnitG.svg);
+}
+
+.D {
+    background-image: url(../../assets/realisations/projUnitD.svg);
+}
+
+.pic-project a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50dvw;
+    height: 50dvh;
+}
+
+.project-title {
+    position: relative;
+    width: fit-content;
+    margin-bottom: 5dvh;
+}
+
+.project-title-D{
+    margin-left: 5dvw;
+}
+
+.project-name {
+    width: fit-content;
+}
+
+.pic-project a img {
+    width: 50%;
+}
+
+.project-prez {
+    width: 50dvw;
+    height: 50dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-desc {
+    padding-top: 5dvh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50dvw;
+    height: 50dvh;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transition: all ease-in-out 0.2s;
+}
+
+.project-desc-D {
+    padding-top: 12dvh;
+
+    margin-left: 5dvw;
+}
+
+.project-desc-G {
+    padding-right: 5dvw;
+}
+
+.project-detail {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 3dvh;
+    opacity: 0;
+    transition: all ease-in-out 0.2s;
+}
+
+.project-detail-D{
+    margin-left: 5dvw;
+}
+
+.under-line {
+    width: 65%;
+    height: 0.5dvh;
+    background-color: var(--main-green);
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1dvw;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1dvw;
+}
+
+.features p {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.first-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 5dvw;
+    
+}
+
+.software {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1dvw;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1dvw;
+}
+
+.pic-project-prez {
+    aspect-ratio: 1/1;
+    height: 4dvh;
+}
+
+.link-zone {
+    z-index: 2;
+}

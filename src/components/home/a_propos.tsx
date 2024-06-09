@@ -1,14 +1,14 @@
 import React from 'react';
-import '../style/components/a_propos.css';
-import '../style/style_gen.css';
-import me from '../../assets/home/me.JPG';
+import '../../style/components/A_propos.css';
+import '../../style/style_gen.css';
+import me from '../../assets/home/me.jpg';
 
 const A_propos = () => {
   return (
     <div className="sec-2" id="1">
 		<div className="sec-2g">
 			<div className="border-pic">
-				<img src="Asset/me.JPG" alt="">
+				<img src={me} alt="" />
 			</div>
 		</div>
 		<div className="sec-2d">
@@ -26,7 +26,7 @@ const A_propos = () => {
 					<p className="txt">Merci de votre visite ! N'hésitez pas à me <a href="html/index_contact.html" className="txt soulignement">contacter</a> pour toute opportunité de collaboration ou pour en savoir plus sur mon parcours professionnel.</p>
 				</div>
 			</div>
-			<a href="Asset/Manon ARCAS CV.pdf" target="_blank">
+			<a href="../../src/assets/CV.pdf" target="_blank">
 				<div className="btn cv">
 					<p className="txt-btn">Télécharger mon CV</p>
 				</div>
