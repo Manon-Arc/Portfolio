@@ -2,7 +2,8 @@ version: '3'
 
 services:
   app:
-    image: yourdockerhubusername/your-repo-name:latest
+    build:
+      context: ./infra
+      dockerfile: Dockerfile
     ports:
       - "80:80"
-    restart: always
