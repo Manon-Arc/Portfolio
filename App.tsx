@@ -5,21 +5,24 @@ import Experience from './src/Pages/Experience';
 import Contact from './src/Pages/Contact';
 import Realisations from './src/Pages/Realisations';
 import Header from './src/components/Header';
-import Footer from './src/components/Footer'
+import Footer from './src/components/Footer';
+import PostList from './src/components/posts/PostList';
+import PostDetail from './src/components/posts/PostDetail';
 
 function App() {
   return (
     <div>
-    <Header />
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/realisations" element={<Realisations />} />
-      </Routes>
-    </Router>
-    <Footer />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/realisations" element={<Realisations />} />
+          <Route path="/experience" element={<PostList />} />
+          <Route path="/experience/:id" element={<PostDetail />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }
