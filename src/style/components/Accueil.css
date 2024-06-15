@@ -1,5 +1,5 @@
 .sec-1 {
-    background: linear-gradient(0deg, rgba(44, 87, 88, 0.10) 0%, rgba(44, 87, 88, 0.10) 100%), url("../../assets/home/workplace.jpg"), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(44, 87, 88, 0.10) 0%, rgba(44, 87, 88, 0.10) 100%), url("../../assets/workplace.jpg"), lightgray 50% / cover no-repeat;
     background-size: cover;
     width: 100dvw;
     background-color: var(--title);

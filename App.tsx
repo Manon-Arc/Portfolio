@@ -7,6 +7,7 @@ import Realisations from './src/Pages/Realisations';
 import Header from './src/components/Header';
 import Footer from './src/components/Footer';
 import Experience from './src/Pages/Experience';
+import NotFound from './src/components/NoFound';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/experience/:id" element={<ExperienceDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/realisations" element={<Realisations />} />
+          <Route path="*" element={<NotFound />} /> {/* Route 404 */}
         </Routes>
         <Footer />
       </Router>
