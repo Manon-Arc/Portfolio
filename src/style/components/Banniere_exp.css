@@ -1,0 +1,22 @@
+.banniere{
+    margin-top: 8dvh;
+    height: 50dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+.line-banniere{
+    width: 100dvw;
+    height: 1dvh;
+    background-color: var(--main-green);
+}
+
+.banniere-pic-exp {
+    background-image: url(../../assets/experiences/banniere.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

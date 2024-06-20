@@ -1,0 +1,11 @@
+.experiences-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    width: 100vw;
+    background: var(--gradiant-black);
+    gap: 5vh;
+}

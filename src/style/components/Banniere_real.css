@@ -11,7 +11,7 @@
     background-color: var(--main-green);
 }
 
-.banniere-pic {
+.banniere-pic-real {
     background-image: url(../../assets/realisations/bannière.svg);
     background-repeat: no-repeat;
     background-size: cover;

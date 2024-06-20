@@ -1,5 +1,5 @@
 import React from 'react'
-import Banniere from '../components/realisations/Banniere'
+import Banniere from '../components/realisations/Banniere_real'
 import Nav_real from '../components/realisations/Nav_real'
 import ProjectList from '../components/realisations/ProjectList'
 

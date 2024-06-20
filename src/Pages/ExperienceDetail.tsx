@@ -1,8 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { experiences } from './data/experiences';
-import EntrepriseBanner from './EntrepriseBanner';
-import ArticleList from './ArticleList';
+import { experiences } from '../components/experiences/data/experiences';
+import EntrepriseBanner from '../components/experienceDetail/EntrepriseBanner';
+import ArticleList from '../components/experienceDetail/ArticleList';
 
 const ExperienceDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();

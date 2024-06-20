@@ -1,10 +1,15 @@
 export const experiences = [
     {
       id: '1',
-      logoUrl: '/path/to/logo1.png',
-      companyName: 'Entreprise 1',
-      jobTitle: 'Développeur Web',
-      description: 'Description détaillée de l\'entreprise et du poste.',
+      backpicUrl: '/src/assets/experiences/card_back.svg',
+      logoUrl: '/src/assets/experiences/ynov.svg',
+      companyName: 'Bordeaux Ynov Campus',
+      jobTitle: 'Stagiaire en Fablab',
+      duration: '15/05/2023 - 30/06/2023',
+      missions: ['Création de banc de test mécanique/électronique pour maintenance du matériel',
+         'Création de prototypes robotique pour JPO et Ycamp', 
+        'Participation au WorkShop RoboCup@Home Education'],
+      companyDesc: 'Description détaillée de l\'entreprise et du poste.',
       articles: [
         {
           id: 'a1',
@@ -18,12 +23,20 @@ export const experiences = [
         }
       ]
     },
+    
     {
       id: '2',
-      logoUrl: '/path/to/logo2.png',
-      companyName: 'Entreprise 2',
-      jobTitle: 'Ingénieur Logiciel',
-      description: 'Description détaillée de l\'entreprise et du poste.',
+      backpicUrl: '/src/assets/experiences/card_back_leg.jpg',
+      logoUrl: '/src/assets/experiences/leg.png',
+      companyName: 'Ligue de l\'enseignement - Fédération Gironde',
+      jobTitle: 'Stagiaire partie technique pôle numérique',
+      duration: '08/04/2024 - 05/07/2024',
+      missions: ['Développement d\'une IHM (type scratch et téléopérateur) en python pour le robot ROSA',
+         'Test et correctifs des dernières versions des scripts IA',
+         'Réalisation de documentation technique',
+         'Réalisation d\'action de médiation numérique',
+         'Animation de stand et jury lors de l\'Open France de la Robocup junior 2024'],
+      companyDesc: 'Description détaillée de l\'entreprise et du poste.',
       articles: [
         {
           id: 'b1',
@@ -37,6 +50,4 @@ export const experiences = [
         }
       ]
     }
-    // Ajoutez d'autres expériences ici...
   ];
-  

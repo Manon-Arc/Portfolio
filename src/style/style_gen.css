@@ -127,6 +127,25 @@ body {
     font-weight: 400;
 }
 
+.txt-expcard-company {
+    font-size: 1rem;
+    color: var(--title);
+    font-family: "Inter", sans-serif;
+}
+
+.txt-expcard-jobTitle {
+    font-size: 1.5rem;
+    color: var(--title);
+    font-family: "Inter", sans-serif;
+}
+
+.txt-expcard-date {
+    font-size: 1rem;
+    color: var(--title);
+    font-family: "Inter", sans-serif;
+}
+
+
 .txt-btn {
     color: var(--title);
     font-family: "Inter", sans-serif;
