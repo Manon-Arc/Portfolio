@@ -2,7 +2,9 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { experiences } from '../components/experiences/data/experiences';
 import EntrepriseBanner from '../components/experienceDetail/EntrepriseBanner';
-import ArticleList from '../components/experienceDetail/ArticleList';
+import PostList from '../components/experienceDetail/PostList';
+import '../style/pages/ExperienceDetail.css'
+import '../style/style_gen.css'
 
 const ExperienceDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -14,13 +16,19 @@ const ExperienceDetail: React.FC = () => {
 
   return (
     <div className="experience-detail">
-      <EntrepriseBanner 
+      <EntrepriseBanner
         logoUrl={experience.logoUrl}
         companyName={experience.companyName}
         jobTitle={experience.jobTitle}
-        description={experience.description}
+        companyDesc={experience.companyDesc}
+        missions={experience.missions}
       />
-      <ArticleList articles={experience.articles} />
+      <div className="post-list-detail">
+        <div className='exp-line'>
+          <div className='sep'></div>
+        </div>
+        <PostList posts={experience.articles} />
+      </div>
     </div>
   );
 };

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import '../../style/components/ExperienceCard.css';
 import '../../style/style_gen.css';
 
-
 interface ExperienceCardProps {
   id: string;
   backpicUrl: string;
@@ -36,7 +35,6 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ id, backpicUrl, logoUrl
         </div>
       </Link>
     </div>
-
   );
 };
 
