@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import '../../style/components/Competences.css';
 import '../../style/style_gen.css';
 import dev from '../../assets/home/coding_green.png';

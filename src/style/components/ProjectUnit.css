@@ -3,7 +3,6 @@
     width: 100dvw;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;

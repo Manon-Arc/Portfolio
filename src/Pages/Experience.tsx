@@ -1,4 +1,3 @@
-import React from 'react'
 import ExperienceList from '../components/experiences/ExperienceList'
 import Banniere from '../components/experiences/Banniere_exp'
 

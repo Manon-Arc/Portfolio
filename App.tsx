@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './src/Pages/Home';
 import ExperienceDetail from './src/Pages/ExperienceDetail';
@@ -8,6 +7,7 @@ import Header from './src/components/Header';
 import Footer from './src/components/Footer';
 import Experiences from './src/Pages/Experience';
 import NotFound from './src/components/NoFound';
+import A_propos from './src/Pages/A_Propos';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/a_propos" element={<A_propos />} />
           <Route path="/experience" element={<Experiences />} />
           <Route path="/experience/:id" element={<ExperienceDetail />} />
           <Route path="/contact" element={<Contact />} />

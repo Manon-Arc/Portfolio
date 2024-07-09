@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import '../../style/components/Accueil.css';
 import '../../style/style_gen.css';
-import { ecrireTexte } from '../../js/textEffect.js';
+import { ecrireTexte } from '../../js/textEffect.ts';
 
 const Accueil = () => {
   useEffect(() => {

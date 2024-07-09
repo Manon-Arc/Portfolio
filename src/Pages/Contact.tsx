@@ -1,6 +1,4 @@
-import React from 'react';
 import Mailbox from '../components/contact/Mailbox';
-
 
 const Contact = () => {
   return (

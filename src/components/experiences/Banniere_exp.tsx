@@ -1,4 +1,3 @@
-import React from 'react';
 import '../../style/components/Banniere_exp.css';
 import '../../style/style_gen.css';
 

@@ -64,6 +64,23 @@ export const projects = [
   },
   {
     className: "D",
+    proj: "IA",
+    title: "Détection d'objet par IA",
+    description: "Manipulation et entraînement d'un modèle d'apprentissage basé sur un réseau de neurones convolutifs (CNN) afin de réaliser une détection d'objet par IA",
+    imageUrl: "/src/assets/realisations/projects/IA.svg",
+    languages: "Jupyter Notebook, Python, Flask",
+    software: "Yolo v8",
+    features: [
+      "Documentation simplifiée sur le fonctionnement des réseaux de neurones",
+      "Possibilité d'entraîner son propre modèle d'apprentissage à l'aide de datasets personnalisés",
+      "Possibilité de manipuler directement un modèle d'apprentissage pré-entraîné (détection)",
+      "Site internet permettant de déposer directement l'image que l'on souhaite analyser."
+    ],
+    team: "Individuel",
+    projectLink: "https://github.com/Manon-Arc/IA-ObjectDetection"
+  },
+  {
+    className: "G",
     proj: "appOsyris",
     title: "Application Osyris",
     description: "Création d'une application de gestion associative.",
@@ -81,7 +98,7 @@ export const projects = [
     projectLink: ""
   },
   {
-    className: "G",
+    className: "D",
     proj: "dashboard",
     title: "Dashboard Netflix",
     description: "Ce projet vise à fournir un tableau de bord web intéractif pour afficher\
@@ -99,7 +116,7 @@ export const projects = [
     projectLink: "https://github.com/Manon-Arc/Dashboard_Netflix"
   },
   {
-    className: "D",
+    className: "G",
     proj: "flipper",
     title: "Flipper mobile",
     description: "Création d'une application de flipper sur mobile.",
@@ -118,7 +135,7 @@ export const projects = [
     projectLink: "https://github.com/Manon-Arc/Flipper_mobile"
   },
   {
-    className: "G",
+    className: "D",
     proj: "escape",
     title: "Escape game en CLI",
     description: "Escape Game dans le terminal, plusieurs options à dispositions pour intéragir avec<br> les différents éléments de l'environnement, afin de résoudre une intrigue.",
@@ -134,7 +151,7 @@ export const projects = [
     projectLink: "https://github.com/Manon-Arc/BB8"
   },
   {
-    className: "D",
+    className: "G",
     proj: "endless",
     title: "Endless runner",
     description: "Création d'un jeu de type 'Endless runner'",
@@ -153,7 +170,7 @@ export const projects = [
     projectLink: "https://github.com/Manon-Arc/Endless_runner"
   },
   {
-    className: "G",
+    className: "D",
     proj: "domolabo",
     title: "Domolabo",
     description: "Création d'un système domotique de l'applications jusqu'aux objets connectés incluant le hub.",
@@ -170,7 +187,7 @@ export const projects = [
     projectLink: "https://github.com/Ahliko/DomoLabo"
   },
   {
-    className: "D",
+    className: "G",
     proj: "coffre",
     title: "Coffre connecté",
     description: "Prototype de coffre à authentification multiples.",
@@ -186,7 +203,7 @@ export const projects = [
     projectLink: "https://github.com/ChippeyTheo/serrure-connect-"
   },
   {
-    className: "G",
+    className: "D",
     proj: "marcus",
     title: "Marcus",
     description: "Création d'un prototype de robot pompier en 5 jours lors d'un Hackaton.",
@@ -204,7 +221,7 @@ export const projects = [
     projectLink: "https://github.com/Manon-Arc/Marcus_Hackathon"
   },
   {
-    className: "D",
+    className: "G",
     proj: "robolympiades",
     title: "Robolympiades",
     description: "Compétiton de robotique mobile, 4 équipes s'affrontent sur 4 épreuves :\
@@ -227,7 +244,7 @@ export const projects = [
     projectLink: "https://gitlab.com/baptgdb/robolympiades-2022_2023/"
   }, 
   {
-    className: "G",
+    className: "D",
     proj: "assistant",
     title: "Assistant mobile sur rail",
     description: "Prototype de robot assistant mobile sur rail. Ce robot peut être utilisé comme une troisième main, un support d'outils ou un dispositif de rangement.",
@@ -243,7 +260,7 @@ export const projects = [
     projectLink: "https://github.com/Manon-Arc/Robot_sur_rail"
   },
   {
-    className: "D",
+    className: "G",
     proj: "mecanum",
     title: "Robot mecanum",
     description: "Prototype de robot mécanum télécommandé.",
@@ -259,7 +276,7 @@ export const projects = [
     projectLink: "https://github.com/Manon-Arc/code_holonome/"
   },
   {
-    className: "G",
+    className: "D",
     proj: "bb8",
     title: "BB8",
     description: "Prototype de sphère roulante inspiré de BB8.",
@@ -274,7 +291,7 @@ export const projects = [
     projectLink: "https://github.com/Manon-Arc/BB8"
   },
   {
-    className: "D",
+    className: "G",
     proj: "moduleESP",
     title: "Module ESP32",
     description: "Conception sur mesure d'un module ESP32.",
@@ -290,7 +307,7 @@ export const projects = [
     projectLink: ""
   },
   {
-    className: "G",
+    className: "D",
     proj: "bluetooth",
     title: "Module bluetooth",
     description: "Conception sur mesure d'un module bluetooth.",

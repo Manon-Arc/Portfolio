@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import "../../style/components/ProjectUnit.css";
-import { addOpacityListeners } from '../../js/addOpacityListener.js';
+import { addOpacityListeners } from '../../js/addOpacityListener.ts';
 
 interface ProjectUnitProps {
   className: string;
@@ -28,15 +28,17 @@ const ProjectUnit: React.FC<ProjectUnitProps> = ({
   projectLink
 }) => {
   useEffect(() => {
-    addOpacityListeners(desc.current, detail.current, link.current);
+    if (desc.current && detail.current && link.current) {
+      addOpacityListeners(desc.current, detail.current, link.current);
+    }
   }, []);
 
-  const desc = useRef(null);
-  const detail = useRef(null);
-  const link = useRef(null);
+  const desc = useRef<HTMLDivElement>(null);
+  const detail = useRef<HTMLDivElement>(null);
+  const link = useRef<HTMLDivElement>(null);
 
   return (
-    <div className={`project-unit ${className}`}>
+    <div className={`project-unit Display ${className} ${proj}`}>
       {className === "G" ? (
         <>
           <div className="pic-project">

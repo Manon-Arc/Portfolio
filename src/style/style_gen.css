@@ -262,4 +262,8 @@ body {
 .noDisplay {
     display: none;
 }
+
+.Display {
+    display: flex;
+}
     

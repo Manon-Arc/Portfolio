@@ -1,4 +1,3 @@
-import React from 'react';
 import '../../style/components/A_propos.css';
 import '../../style/style_gen.css';
 import me from '../../assets/home/me.jpg';

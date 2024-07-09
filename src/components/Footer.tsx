@@ -1,4 +1,3 @@
-import React from 'react';
 import '../style/components/Footer.css';
 import '../style/style_gen.css';
 import linkedinLogo from '../assets/footer/linkedin.png';

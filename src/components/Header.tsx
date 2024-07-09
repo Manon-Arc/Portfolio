@@ -1,23 +1,29 @@
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import '../style/components/Header.css';
 import '../style/style_gen.css';
 import portfolioLogo from '../assets/PortFolio.png';
 
 const Header = () => {
-  const [selectedCategory, setSelectedCategory] = useState('Accueil');
-
-  const handleSelected = (category) => {
-    setSelectedCategory(category);
-  };
+  const location = useLocation();
+  const [selectedCategory, setSelectedCategory] = useState('');
 
   const categories = [
     { name: 'Accueil', link: '/' },
-    { name: 'A propos', link: '/#1' },
-    { name: 'Compétences', link: '/#2' },
+    { name: 'A propos', link: '/a_propos' },
     { name: 'Réalisations', link: '/realisations' },
     { name: 'Experiences', link: '/experience' },
     { name: 'Contact', link: '/contact' },
   ];
+
+  useEffect(() => {
+    const category = categories.find((cat) => cat.link === location.pathname);
+    if (category) {
+      setSelectedCategory(category.name);
+    } else {
+      setSelectedCategory('');
+    }
+  }, [location.pathname]);
 
   return (
     <header className="header">
@@ -31,7 +37,7 @@ const Header = () => {
           <a href={category.link} key={category.name}>
             <p
               className={`txt-category ${selectedCategory === category.name ? 'selected' : ''}`}
-              onClick={() => handleSelected(category.name)}
+              onClick={() => setSelectedCategory(category.name)}
             >
               {category.name}
             </p>
