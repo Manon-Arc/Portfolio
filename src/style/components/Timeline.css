@@ -1,0 +1,22 @@
+.parcours {
+    background-color: var(--desktopComp);
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+}
+
+.parcours-title {
+    height: 12vh;
+    padding-top: 8vh;
+}
+
+.timeline-zone {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+}
+
+.timeline-zone {
+    font-family: "Inter", sans-serif;
+
+}

@@ -36,7 +36,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="droits">
-        <p className="txt-droits">© Copyright, Tous droits réservés</p>
+        <p className="txt-droits">Copyright © 2024 - Tous droits réservés</p>
         <p className="txt-droits">
           <span>développé par</span>
           <span className="name-footer"> Manon Arcas </span>

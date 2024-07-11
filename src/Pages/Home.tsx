@@ -1,5 +1,5 @@
 import Accueil from '../components/home/Accueil';
-import A_propos from '../components/home/A_propos';
+import A_propos from '../components/home/Presentation';
 import Competences from '../components/home/Competences'
 
 const Home = () => {

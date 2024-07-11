@@ -7,7 +7,7 @@ export const experiences = [
       jobTitle: 'Stagiaire en Fablab',
       duration: '15/05/2023 - 30/06/2023',
       missions: ['Création de banc de test mécanique/électronique pour maintenance du matériel',
-         'Création de prototypes robotique pour JPO et Ycamp', 
+        'Création de prototypes robotique pour JPO et Ycamp', 
         'Participation au WorkShop RoboCup@Home Education'],
       companyDesc: 'Description détaillée de l\'entreprise et du poste.',
       articles: [
