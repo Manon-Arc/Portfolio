@@ -1,8 +1,7 @@
-.sec-2 {
-    background: var(--gradiant-black);
+.sec-2-a-propos {
+    background: var(--secdarker);
     background-size: cover;
     width: 100dvw;
-    background-color: var(--title);
     min-height: 100dvh;
     display: flex;
     flex-direction: row;

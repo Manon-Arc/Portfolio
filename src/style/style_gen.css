@@ -2,9 +2,12 @@
     --title : #F0F0F0;
     --txt : #CECECE;
     --main-green : #2c5758;
-    --desktopComp : #323232;
+    --secdarker : #242424;
+    --secmedium : #2c2c2c;
+    --secmedcle : #343434;
+    --secclear : #373737;
     --footer : #393939;
-    --gradiant-black : linear-gradient(66deg, #1E1E1E 13.45%, #2F2F2F 78.23%);
+    --gradiant-black : linear-gradient(66deg, #1E1E1E 13.45%, #373737 78.23%);
     --gradiant-green : linear-gradient(93deg, #2c5758 0.03%, #3c8e90 100.03%);
 }
 
@@ -111,6 +114,13 @@ body {
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: bold;
+}
+
+.txt-hardskills {
+    font-size: 1rem;
+    color: var(--txt);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
 }
 
 .logiciel-link {

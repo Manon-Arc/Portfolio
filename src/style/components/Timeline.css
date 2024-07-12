@@ -1,5 +1,5 @@
 .parcours {
-    background-color: var(--desktopComp);
+    background-color: var(--secmedium);
     width: 100dvw;
     display: flex;
     flex-direction: column;
@@ -18,5 +18,4 @@
 
 .timeline-zone {
     font-family: "Inter", sans-serif;
-
 }

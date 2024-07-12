@@ -32,7 +32,7 @@ export const events = [
     cardTitle: "Maîtrise de la qualité en projet Web - 783 points",
     cardSubtitle:
     "Opquast",
-    cardDetailedText: ["- Gestion de projet informatique", "- Modifier Intégrer les règles et le vocabulaire assurance qualité web dans sa pratique professionnel"],
+    cardDetailedText: ["- Gestion de projet informatique", "- Modifier, Intégrer les règles et le vocabulaire assurance qualité web dans sa pratique professionnel"],
     media: {
       name: "opquast",
       source: {
