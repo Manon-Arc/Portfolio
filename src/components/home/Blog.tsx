@@ -5,13 +5,13 @@ import elec from '../../assets/home/pcb_green.png';
 import meca from '../../assets/home/gear_green.png';
 
 
-const Competences = () => {
+const Blog = () => {
 
   return (
     <div className="sec-3" id="2">
             <div className="title-line competence">
                 <div className="line"></div>
-                <p className="txt-title">Compétences logiciel</p>
+                <p className="txt-title">Blog</p>
                 <div className="line"></div>
             </div>
             <div className="card-zone">
@@ -37,4 +37,4 @@ const Competences = () => {
         </div>
   )
 }
-export default Competences
+export default Blog

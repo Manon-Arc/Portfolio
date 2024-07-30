@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     border-radius: 15px;
-    background-color: var(--desktopComp);
+    background-color: var(--secclear);
     width: 75vw;
     height: 40vh;
     overflow: hidden;

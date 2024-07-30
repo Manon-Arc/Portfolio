@@ -38,6 +38,7 @@ import gitlab from '../../assets/a_propos/compétences/gitlab.webp'
 
 import figma from '../../assets/a_propos/compétences/figma.webp'
 import trello from '../../assets/a_propos/compétences/trello.png'
+import miro from '../../assets/a_propos/compétences/miro.png'
 
 
 const Hardskills = () => {
@@ -50,10 +51,9 @@ const Hardskills = () => {
             </div>
             <div className="tab-zone">
                 <div className='tab-hardskills'>
-                    <div className="tab">
                         <div className='tab-line'>
                             <div className='category-box'>
-                                <p className='txt-hardskills'>Langage de programmation</p>
+                                <p className='txt-hardsoft'>Langage de programmation</p>
                             </div>
                             <div className='logo-list'>
                                 <a href="https://www.python.org">
@@ -87,7 +87,7 @@ const Hardskills = () => {
 
                         <div className='tab-line'>
                             <div className='category-box'>
-                                <p className='txt-hardskills'>Frameworks et Bibliothèques</p>
+                                <p className='txt-hardsoft'>Frameworks et Bibliothèques</p>
                             </div>
                             <div className='logo-list'>
                                 <a href="https://fr.react.dev">
@@ -121,7 +121,7 @@ const Hardskills = () => {
 
                         <div className='tab-line'>
                             <div className='category-box'>
-                                <p className='txt-hardskills'>Bases de Données</p>
+                                <p className='txt-hardsoft'>Bases de Données</p>
                             </div>
                             <div className='logo-list'>
                                 <a href="https://sql.sh">
@@ -146,7 +146,7 @@ const Hardskills = () => {
 
                         <div className='tab-line'>
                             <div className='category-box'>
-                                <p className='txt-hardskills'>Technologies Front-End</p>
+                                <p className='txt-hardsoft'>Technologies Front-End</p>
                             </div>
                             <div className='logo-list'>
                                 <a href="https://developer.mozilla.org/fr/docs/Web/HTML">
@@ -165,7 +165,7 @@ const Hardskills = () => {
 
                         <div className='tab-line'>
                             <div className='category-box'>
-                                <p className='txt-hardskills'>Outils et Plateformes DevOps</p>
+                                <p className='txt-hardsoft'>Outils et Plateformes DevOps</p>
                             </div>
                             <div className='logo-list'>
                                 <a href="https://www.docker.com">
@@ -181,7 +181,7 @@ const Hardskills = () => {
 
                         <div className='tab-line'>
                             <div className='category-box'>
-                                <p className='txt-hardskills'>Outils de Gestion de Version</p>
+                                <p className='txt-hardsoft'>Outils de Gestion de Version</p>
                             </div>
                             <div className='logo-list'>
                                 <a href="https://git-scm.com">
@@ -200,7 +200,7 @@ const Hardskills = () => {
 
                         <div className='tab-line'>
                             <div className='category-box'>
-                                <p className='txt-hardskills'>Outils de Conception et Gestion de Projets</p>
+                                <p className='txt-hardsoft'>Outils de Conception et Gestion de Projets</p>
                             </div>
                             <div className='logo-list'>
                                 <a href="https://www.figma.com/fr-fr/">
@@ -209,12 +209,14 @@ const Hardskills = () => {
                                 <a href="https://trello.com">
                                     <img src={trello} alt="trello_logo" />
                                 </a>
+                                <a href="https://miro.com/fr/">
+                                    <img src={miro} alt="miro_logo" />
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     );
 };
 

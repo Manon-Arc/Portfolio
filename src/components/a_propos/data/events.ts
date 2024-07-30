@@ -29,7 +29,7 @@ export const events = [
   },
   {
     title: "2024",
-    cardTitle: "Maîtrise de la qualité en projet Web - 783 points",
+    cardTitle: "Certification - Maîtrise de la qualité en projet Web (783 points)",
     cardSubtitle:
     "Opquast",
     cardDetailedText: ["- Gestion de projet informatique", "- Modifier, Intégrer les règles et le vocabulaire assurance qualité web dans sa pratique professionnel"],

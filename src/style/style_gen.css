@@ -1,11 +1,13 @@
 :root {
     --title : #F0F0F0;
     --txt : #CECECE;
-    --main-green : #2c5758;
-    --secdarker : #242424;
+    --main-green2 : #2c5758;
+    --main-green : #347274;
+
+    --secdarker : #272727;
     --secmedium : #2c2c2c;
-    --secmedcle : #343434;
-    --secclear : #373737;
+    --secmedcle : #303030;
+    --secclear : #343434;
     --footer : #393939;
     --gradiant-black : linear-gradient(66deg, #1E1E1E 13.45%, #373737 78.23%);
     --gradiant-green : linear-gradient(93deg, #2c5758 0.03%, #3c8e90 100.03%);
@@ -116,7 +118,7 @@ body {
     font-weight: bold;
 }
 
-.txt-hardskills {
+.txt-hardsoft {
     font-size: 1rem;
     color: var(--txt);
     font-family: "Inter", sans-serif;

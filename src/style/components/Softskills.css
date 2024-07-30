@@ -1,0 +1,46 @@
+.Softskills {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secclear);
+}
+
+.softskills-title {
+    margin-top: 7vh;
+    flex-shrink: 0;
+    font-size: 2em;
+}
+
+.softskills-zone {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7vh;
+}
+
+.tab-softskills {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.softskill-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.softskill-icon {
+    font-size: 2em;
+    color: var(--main-green);
+    margin-bottom: 10px;
+}

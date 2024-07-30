@@ -32,16 +32,6 @@
     overflow: hidden;
 }
 
-.tab {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-}
-
 .tab-line {
     width: 100%;
     flex: 1;
@@ -70,7 +60,7 @@
 
 .logo-list img {
     width: auto;
-    height: 4em;
+    height: 3.5em;
 }
 
 .sep-tab-hardskills {

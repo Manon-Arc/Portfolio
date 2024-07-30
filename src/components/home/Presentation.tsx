@@ -1,6 +1,6 @@
 import '../../style/components/Presentation.css';
 import '../../style/style_gen.css';
-import perso from '../../assets/home/pixelcut-export.png';
+import perso from '../../assets/home/portfolioP.svg';
 
 const A_propos = () => {
   return (
@@ -18,7 +18,7 @@ const A_propos = () => {
 					<div className="line"></div>
 				</div>
 				<div className="propos-desc">
-					<p className="txt">Je suis Manon Arcas, passionnée de développement informatique et de systèmes embarqués, et actuellement étudiante dans ces domaines captivants. Ma intérêt  pour les nouvelles technologies m'a conduite à choisir une carrière que je souhaite développer et enrichir pleinement.</p>
+					<p className="txt">Je suis Manon Arcas, passionnée de développement informatique et de systèmes embarqués, et actuellement étudiante dans ces domaines captivants. Mon intérêt pour les nouvelles technologies m'a conduite à choisir une carrière que je souhaite développer et enrichir pleinement.</p>
 					<p className="txt">Tout au long de mon parcours, j'ai eu l'opportunité de travailler sur plusieurs projets passionnants. Ces expériences m'ont permis de combiner mes compétences en programmation avec la conception mécanique et électronique, notamment pour des projets orientés vers les systèmes embarqués. Elles ont enrichi mes connaissances et renforcé ma détermination à poursuivre dans ces domaines dynamiques et innovants.</p>
 					<p className="txt">Ce site portfolio est une vitrine de mon parcours et de mes réalisations jusqu'à présent. Je vous invite à explorer mes projets et expériences, et à découvrir comment je pourrais contribuer à des projets innovantes.</p>
 					<p className="txt">Merci de votre visite ! N'hésitez pas à me contacter pour toute opportunité de collaboration ou pour en savoir plus sur mon parcours professionnel.</p>
