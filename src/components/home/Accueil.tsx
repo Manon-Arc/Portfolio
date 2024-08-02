@@ -2,12 +2,13 @@ import { useEffect } from 'react';
 import '../../style/components/Accueil.css';
 import '../../style/style_gen.css';
 import { ecrireTexte } from '../../js/textEffect.ts';
+import ArrowAnimation from './Arrow';
 
 const Accueil = () => {
   useEffect(() => {
     ecrireTexte();
-  },[]
-);
+  }, []);
+
   return (
     <div className="sec-1" id="0">
       <div className="sec-1g">
@@ -20,6 +21,7 @@ const Accueil = () => {
           </div>
         </a>
       </div>
+      <ArrowAnimation />
     </div>
   );
 };

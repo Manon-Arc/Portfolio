@@ -1,46 +1,50 @@
 .sec-1 {
-    background: linear-gradient(0deg, rgba(44, 87, 88, 0.10) 0%, rgba(44, 87, 88, 0.10) 100%), url("../../assets/workplace.jpg"), lightgray 50% / cover no-repeat;
-    background-size: cover;
-    width: 100dvw;
-    background-color: var(--title);
-    min-height: 100dvh;
+  background: linear-gradient(0deg, rgba(31, 32, 32, 0.2) 0%, rgba(23, 24, 24, 0.2) 100%), url("../../assets/home/testi.svg");
+  backdrop-filter: grayscale(30%);
+  background-position: center;
+  background-size: cover;
+  width: 100dvw;
+  background-color: var(--title);
+  min-height: 100dvh;
+  position: relative;
 }
 
 .sec-1g {
-    width: 50dvw;
-    height: 100dvh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 6dvw;
-    gap: 0.5rem;
+  width: 50dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 6dvw;
+  gap: 0.5rem;
 }
 
 #animation_machine {
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    border-right: 2px solid white;
-    animation: cursor 0.5s infinite alternate;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 8vh;
+  margin: 0;
+  padding: 0;
+  border-right: 2px solid white;
+  animation: cursor 0.5s infinite alternate;
 }
 
 @keyframes cursor {
-    from {
-      border-color: transparent;
-    }
-    to {
-      border-color: white;
-    }
+  from {
+    border-color: transparent;
   }
+  to {
+    border-color: white;
+  }
+}
 
 .recherche {
-    max-width: 30dvw;
+  max-width: 30dvw;
 }
 
 .a-propos {
-  height: 7dvh;
-  width: 10dvw;
-  margin-top: 2rem;
+height: 7dvh;
+width: 10dvw;
+margin-top: 2rem;
 }

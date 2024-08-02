@@ -19,7 +19,7 @@ import symfony from '../../assets/a_propos/compétences/symfony.png'
 import vite from '../../assets/a_propos/compétences/vitejs.png'
 
 import postgre from '../../assets/a_propos/compétences/postgresql.png'
-import mariadb from '../../assets/a_propos/compétences/mariadb.png'
+import mariadb from '../../assets/a_propos/compétences/mariadb2.png'
 import sql from '../../assets/a_propos/compétences/sql.png'
 import sqlite from '../../assets/a_propos/compétences/sqlite.png'
 import mysql from '../../assets/a_propos/compétences/mysql.png'

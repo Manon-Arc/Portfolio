@@ -39,7 +39,9 @@ const Footer = () => {
         <p className="txt-droits">Copyright © 2024 - Tous droits réservés</p>
         <p className="txt-droits">
           <span>développé par</span>
-          <span className="name-footer"> Manon Arcas </span>
+          <a href="https://www.linkedin.com/in/manon-arcas/">         
+            <span className="name-footer"> Manon Arcas </span>
+          </a>
           <span>avec ❤</span>
         </p>
       </div>

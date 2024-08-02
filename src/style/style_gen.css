@@ -1,16 +1,15 @@
 :root {
     --title : #F0F0F0;
     --txt : #CECECE;
-    --main-green2 : #2c5758;
     --main-green : #347274;
 
-    --secdarker : #272727;
-    --secmedium : #2c2c2c;
-    --secmedcle : #303030;
-    --secclear : #343434;
-    --footer : #393939;
-    --gradiant-black : linear-gradient(66deg, #1E1E1E 13.45%, #373737 78.23%);
-    --gradiant-green : linear-gradient(93deg, #2c5758 0.03%, #3c8e90 100.03%);
+    --secdarker : #141717;
+    --secmedium : #181D1D;
+    --secmedcle : #1C2121;
+    --secclear : #222828;
+    --footer : #293030;
+    --gradiant-black : linear-gradient(66deg, #121414 13.45%, #1C2121 78.23%);
+    --gradiant-green : linear-gradient(93deg, #0E2B2B 0.03%, #2C5758 100.03%);
 }
 
 *{
@@ -21,7 +20,7 @@
 }
 
 body {
-    background: linear-gradient(66deg, #1E1E1E 13.45%, #2F2F2F 78.23%);
+    background-color: var(--secmedcle);
     min-height: 100dvh;
     width: 100dvw;
     overflow-x: hidden;
@@ -161,7 +160,7 @@ body {
 .txt-btn {
     color: var(--title);
     font-family: "Inter", sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 200;
     padding: 1rem;
     text-align: center;
@@ -253,6 +252,14 @@ body {
 .name-footer {
     font-weight: bold;
     font-style: italic;
+    color: var(--txt);
+}
+
+.name-footer:hover {
+    font-weight: bold;
+    font-style: italic;
+    color: var(--txt);
+    text-decoration: underline;
 }
 
 .btn-more {

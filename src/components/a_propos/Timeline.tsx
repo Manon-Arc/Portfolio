@@ -17,7 +17,7 @@ const A_propos = () => {
 						theme={{
 							primary: '#3f7c7e',
 							secondary: '#2c5758',
-							cardBgColor: '#404040',
+							cardBgColor: '#2d3333',
 							cardMediaBgColor: '#666666',
 							cardDetailsBackGround: '#4c4c4c',
 							titleColor: '#3f7c7e',

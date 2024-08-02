@@ -8,6 +8,7 @@ import Footer from './src/components/Footer';
 import Experiences from './src/Pages/Experience';
 import NotFound from './src/components/NoFound';
 import A_propos from './src/Pages/A_Propos';
+import Blog from './src/Pages/Blog';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/experience/:id" element={<ExperienceDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/realisations" element={<Realisations />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="*" element={<NotFound />} /> {/* Route 404 */}
         </Routes>
         <Footer />
