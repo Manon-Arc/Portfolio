@@ -1,10 +1,13 @@
-import Blog_carroussel from "../components/home/Blog_carroussel";
-import Arrow from "../components/home/Arrow";
+import Banniere from "../components/blog/Banniere_blog"
+import Presentation_blog from "../components/blog/Presentation_blog"
+import ArticleGrid from "../components/blog/ArticleGrid"
 
 const Blog = () => {
   return (
     <div>
-        <Arrow />
+      <Banniere />
+      <Presentation_blog />
+      <ArticleGrid />
     </div>
   )
 }

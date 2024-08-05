@@ -2,6 +2,8 @@
     --title : #F0F0F0;
     --txt : #CECECE;
     --main-green : #347274;
+    --main-green1 :rgba(52, 114, 116, 0.408);
+
 
     --secdarker : #141717;
     --secmedium : #181D1D;
@@ -76,6 +78,21 @@ body {
     color: var(--title);
     font-family: "Inter", sans-serif;
     font-weight: 500;
+}
+
+.txt-blog-pres {
+    font-family: "Inter", sans-serif;
+    color: var(--txt);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.txt-blog-title {
+    font-family: "Inter", sans-serif;
+    color: var(--txt);
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 4%;
 }
 
 .soulignement {

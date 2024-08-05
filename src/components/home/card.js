@@ -19,7 +19,7 @@ const styles = {
   }
 };
 
-function MediaCard(props) {
+export function MediaCard(props) {
   const { classes, image, headline, description, isMoving } = props;
 
   return (

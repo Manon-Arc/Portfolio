@@ -1,0 +1,27 @@
+.pres-blog-box {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secmedcle);
+    margin-bottom: 5vh;
+}
+
+.pres-blog {
+    padding: 3em 20em 3em 20em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pres-blog p {
+    display: flex;
+    flex-direction: column;
+}
+
+.sep-blog {
+    width: 50%;
+    height: 3px;
+    background-color: var(--txt);
+}

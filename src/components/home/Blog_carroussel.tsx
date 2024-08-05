@@ -1,101 +1,119 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Carousel from "react-multi-carousel";
-import classNames from "classnames";
-import Avatar from "@material-ui/core/Avatar";
-import MediaCard from "./card";  // Assurez-vous que le chemin est correct pour votre fichier
+import React, { useState } from 'react';
+import Slider from 'react-slick';
+import { Card, CardMedia, CardContent, Typography, Box } from '@mui/material';
+import { ArrowBackIos, ArrowForwardIos } from '@mui/icons-material';
 
-import articles from "./data.json";
-import "./carousel-with-custom-dots.css";
+// Import des styles de Slick
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
-const responsive = {
-  desktop: {
-    breakpoint: {
-      max: 3000,
-      min: 1024
-    },
-    items: 3,
-    slidesToSlide: 2,
-    partialVisibilityGutter: 40
+const carouselItems = [
+  {
+    title: 'Image 1',
+    description: 'Description de l\'image 1',
+    imageUrl: 'https://source.unsplash.com/random/800x600',
   },
-  mobile: {
-    breakpoint: {
-      max: 464,
-      min: 0
-    },
-    items: 2,
-    slidesToSlide: 2,
-    partialVisibilityGutter: 30
+  {
+    title: 'Image 2',
+    description: 'Description de l\'image 2',
+    imageUrl: 'https://source.unsplash.com/random/800x601',
   },
-  tablet: {
-    breakpoint: {
-      max: 1024,
-      min: 200
+  {
+    title: 'Image 3',
+    description: 'Description de l\'image 3',
+    imageUrl: 'https://source.unsplash.com/random/800x602',
+  },
+  {
+    title: 'Image 4',
+    description: 'Description de l\'image 4',
+    imageUrl: 'https://source.unsplash.com/random/800x603',
+  },
+  {
+    title: 'Image 5',
+    description: 'Description de l\'image 5',
+    imageUrl: 'https://source.unsplash.com/random/800x604',
+  },
+  {
+    title: 'Image 6',
+    description: 'Description de l\'image 6',
+    imageUrl: 'https://source.unsplash.com/random/800x605',
+  },
+  // Ajoutez plus d'éléments ici
+];
+
+const NextArrow = ({ onClick }:any) => (
+  <ArrowForwardIos
+    onClick={onClick}
+    style={{
+      position: 'absolute',
+      top: '50%',
+      right: 0,
+      transform: 'translateY(-50%)',
+      cursor: 'pointer',
+      color: 'white',
+      zIndex: 1,
+      fontSize: '2rem',
+    }}
+  />
+);
+
+const PrevArrow = ({ onClick }:any) => (
+  <ArrowBackIos
+    onClick={onClick}
+    style={{
+      position: 'absolute',
+      top: '50%',
+      left: 0,
+      transform: 'translateY(-50%)',
+      cursor: 'pointer',
+      color: 'white',
+      zIndex: 1,
+      fontSize: '2rem',
+    }}
+  />
+);
+
+const Carousel = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+    afterChange: function(index:any) {
+      console.log(
+        `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
+      );
     },
-    items: 1,
-    slidesToSlide: 1,
-    partialVisibilityGutter: 30
-  }
-};
-
-const ArticleCard = ({ imageUrl, link, title, description }) => {
-  return <MediaCard image={imageUrl} headline={title} description={description} isMoving={false} />;
-};
-
-ArticleCard.propTypes = {
-  imageUrl: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string
-};
-
-class CarouselWithCustomDots extends React.PureComponent {
-  static propTypes = {
-    deviceType: PropTypes.string.isRequired
+    dotsClass: 'slick-dots custom-dots',
   };
 
-  render() {
-    const { deviceType } = this.props;
-    const children = articles
-      .slice(0, 6)
-      .map(article => <ArticleCard key={article.title} {...article} />);
+  return (
+    <Box sx={{ maxWidth: 800, margin: 'auto' }}>
+      <Slider {...settings}>
+        {carouselItems.map((item, index) => (
+          <Card key={index} sx={{ maxWidth: 240, margin: 'auto' }}>
+            <CardMedia
+              component="img"
+              height="300"
+              image={item.imageUrl}
+              alt={item.title}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                {item.title}
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                {item.description}
+              </Typography>
+            </CardContent>
+          </Card>
+        ))}
+      </Slider>
+    </Box>
+  );
+};
 
-    const images = articles.map(article => (
-      <Avatar key={article.title} src={article.imageUrl} />
-    ));
-
-    const CustomDot = ({ index, onClick, active }) => {
-      return (
-        <button
-          onClick={e => {
-            onClick();
-            e.preventDefault();
-          }}
-          className={classNames("custom-dot", {
-            "custom-dot--active": active
-          })}
-        >
-          {React.Children.toArray(images)[index]}
-        </button>
-      );
-    };
-
-    return (
-      <Carousel
-        showDots
-        deviceType={deviceType}
-        ssr
-        slidesToSlide={1}
-        containerClass="carousel-with-custom-dots"
-        responsive={responsive}
-        partialVisible
-        infinite
-        customDot={<CustomDot />}
-      >
-        {children}
-      </Carousel>
-    );
-  }
-}
-
-export default CarouselWithCustomDots;
+export default Carousel;
