@@ -45,7 +45,6 @@ const PrevArrow: React.FC<ArrowProps> = ({ onClick }) => (
 
 function PauseOnHover() {
     const sortedArticles = [...articles].sort((a, b) => a.date.getTime() - b.date.getTime());
-	console.log(sortedArticles)
     const recentArticles = sortedArticles.slice(0, 5);
 
     const settings = {
