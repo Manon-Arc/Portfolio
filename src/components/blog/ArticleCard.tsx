@@ -8,7 +8,7 @@ interface ArticleCardProps {
 }
 
 const ArticleCard: React.FC<ArticleCardProps> = ({ image, title, date }) => (
-    <Card sx={{ width: 345, maxWidth: 345 }}>
+    <Card sx={{ width: 360, maxWidth: 380, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
         <CardMedia
             component="img"
             height="250"
@@ -18,23 +18,28 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ image, title, date }) => (
         <CardContent
             sx={{
                 backgroundColor: "var(--secclear)",
-                height: 120,
+                flexGrow: 1,
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'space-between'
             }}
         >
-            <Typography gutterBottom variant="h5" color="var(--title)" component="div">
-                {title}
-            </Typography>
-            <Typography variant="body2" color="var(--txt)">
-                {date}
-            </Typography>
-            <a href="/a_propos" style={{ textDecoration: 'none' }}>
-                <Box mt={1} display="flex" alignItems="center">
+            <Box>
+                <Typography gutterBottom variant="h5" color="var(--title)" component="div">
+                    {title}
+                </Typography>
+                <Typography variant="body2" color="var(--txt)">
+                    {date}
+                </Typography>
+            </Box>
+            <Box mt={1} display="flex" alignItems="center">
+                <a href="/a_propos" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
                     <Avatar alt="Manon Arcas" src="/src/assets/blog/me.jpg" sx={{ width: 35, height: 35, mr: 1 }} />
                     <Typography variant="body2" color="var(--txt)">
                         Par Manon Arcas
                     </Typography>
-                </Box>
-            </a>
+                </a>
+            </Box>
         </CardContent>
         <CardActions
             sx={{

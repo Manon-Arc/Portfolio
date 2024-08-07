@@ -1,0 +1,31 @@
+.carroussel {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--secmedcle);
+	padding: 10vh 0 15vh 0;
+}
+
+.centered-slide {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider-container {
+	width: 80%;
+}
+
+.slick-dots {
+    bottom: -50px;
+}
+
+.slick-dots li button:before {
+    color: #e8e8e8;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #ffffff;
+}
