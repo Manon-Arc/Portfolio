@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectUnit from './ProjectUnit';
-import { projects } from './data/projects';
+import { projects } from '../../data/projects';
 
 const ProjectList: React.FC = () => {
   return (

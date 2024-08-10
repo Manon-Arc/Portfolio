@@ -10,33 +10,6 @@ export const experiences = [
         'Création de prototypes robotique pour JPO et Ycamp', 
         'Participation au WorkShop RoboCup@Home Education'],
       companyDesc: 'Description détaillée de l\'entreprise et du poste.',
-      articles: [
-        {
-          id: 'a1',
-          title: 'Article 1',
-          content: 'Contenu de l\'article 1'
-        },
-        {
-          id: 'a2',
-          title: 'Article 2',
-          content: 'Contenu de l\'article 2'
-        },
-        {
-          id: 'a3',
-          title: 'Article 3',
-          content: 'Contenu de l\'article 3'
-        },
-        {
-          id: 'a4',
-          title: 'Article 4',
-          content: 'Contenu de l\'article 4'
-        },
-        {
-          id: 'a5',
-          title: 'Article 5',
-          content: 'Contenu de l\'article 5'
-        }
-      ]
     },
     
     {
@@ -47,22 +20,10 @@ export const experiences = [
       jobTitle: 'Stagiaire partie technique pôle numérique',
       duration: '08/04/2024 - 05/07/2024',
       missions: ['Développement d\'une IHM (type scratch et téléopérateur) en python pour le robot ROSA',
-         'Test et correctifs des dernières versions des scripts IA',
+         'Maintenance, deploiement de MAJ et test',
          'Réalisation de documentation technique',
          'Réalisation d\'action de médiation numérique',
          'Animation de stand et jury lors de l\'Open France de la Robocup junior 2024'],
       companyDesc: 'Description détaillée de l\'entreprise et du poste.',
-      articles: [
-        {
-          id: 'b1',
-          title: 'Article 1',
-          content: 'Contenu de l\'article 1'
-        },
-        {
-          id: 'b2',
-          title: 'Article 2',
-          content: 'Contenu de l\'article 2'
-        }
-      ]
     }
   ];

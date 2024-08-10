@@ -1,6 +1,6 @@
 import '../../style/components/Timeline.css';
 import { Chrono } from "react-chrono";
-import { events } from './data/events';
+import { events } from '../../data/events';
 
 const A_propos = () => {
 	return (

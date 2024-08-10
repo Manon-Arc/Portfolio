@@ -1,8 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { experiences } from '../components/experiences/data/experiences';
+import { experiences } from '../data/experiences';
 import EntrepriseBanner from '../components/experienceDetail/EntrepriseBanner';
-import PostList from '../components/experienceDetail/PostList';
 import '../style/pages/ExperienceDetail.css'
 import '../style/style_gen.css'
 
@@ -27,7 +26,6 @@ const ExperienceDetail: React.FC = () => {
         <div className='exp-line'>
           <div className='sep'></div>
         </div>
-        <PostList posts={experience.articles} />
       </div>
     </div>
   );

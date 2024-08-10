@@ -1,6 +1,6 @@
 import React from 'react';
 import ExperienceCard from './ExperienceCard';
-import { experiences } from './data/experiences';
+import { experiences } from '../../data/experiences';
 import '../../style/components/ExperienceList.css';
 import '../../style/style_gen.css';
 

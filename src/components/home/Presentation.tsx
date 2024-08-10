@@ -1,13 +1,13 @@
 import '../../style/components/Presentation.css';
 import '../../style/style_gen.css';
-import perso from '../../assets/home/portfolioP.svg';
+import logo from '../../assets/home/portfolio.svg';
 
 const A_propos = () => {
   return (
     <div className="sec-2" id="1">
 		<div className="sec-2g">
 			<div className="border-pic-pres">
-				<img src={perso} alt="" />
+				<img src={logo} alt="" />
 			</div>
 		</div>
 		<div className="sec-2d">

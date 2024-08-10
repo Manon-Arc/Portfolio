@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import { ArrowBackIos, ArrowForwardIos } from '@mui/icons-material';
-import { articles } from '../blog/data/articles';
+import { articles } from '../../data/articles';
 import ArticleCard from '../blog/ArticleCard';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

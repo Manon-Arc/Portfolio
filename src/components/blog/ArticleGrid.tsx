@@ -1,6 +1,6 @@
 import { Container, Grid } from '@mui/material';
 import ArticleCard from './ArticleCard';
-import { articles } from './data/articles';
+import { articles } from '../../data/articles';
 import '../../style/components/ArticleGrid.css';
 import '../../style/style_gen.css';
 

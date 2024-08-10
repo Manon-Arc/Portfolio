@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/components/NotFound.css';
 import '../style/style_gen.css';
-import workspace from '../assets/workplace.jpg';
+import workspace from '../assets/workplace.svg';
 import linkedin from '../assets/linkedin-logo_white.png';
 import git from '../assets/git_logo_white.png';
 
