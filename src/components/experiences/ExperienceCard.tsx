@@ -4,7 +4,7 @@ import '../../style/components/ExperienceCard.css';
 import '../../style/style_gen.css';
 
 interface ExperienceCardProps {
-  id: string;
+  id: number;
   backpicUrl: string;
   logoUrl: string;
   companyName: string;

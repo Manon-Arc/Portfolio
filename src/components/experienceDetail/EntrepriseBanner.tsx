@@ -1,34 +1,31 @@
 import React from 'react';
-import '../../style/components/EntrepriseBanner.css'
+import '../../style/components/ExperienceCard.css';
+import '../../style/components/CompanyBanner.css'
+import '../../style/style_gen.css';
 
-interface EntrepriseBannerProps {
+interface CompanyBannerProps {
   logoUrl: string;
   companyName: string;
   jobTitle: string;
-  companyDesc: string;
-  missions: string[];
+  duration: string;
 }
 
-const EntrepriseBanner: React.FC<EntrepriseBannerProps> = ({ logoUrl, companyName, jobTitle, companyDesc, missions }) => {
+const CompanyBanner: React.FC<CompanyBannerProps> = ({ logoUrl, companyName, jobTitle, duration }) => {
   return (
     <div className='company-banner'>
-      <div className='info-container'>
-        <div className='pic-zone'>
-          <img src={logoUrl} alt={`${companyName} logo`} />
+      <div className='experience-card-company'>
+        <div className='companycard-picside '>
+          <img className='expcard-img expcard-imgcompany' src={logoUrl} alt={`${companyName} logo`} />
         </div>
-        <div className='info-company'>
-          <h1>{companyName}</h1>
-          <p>{companyDesc}</p>
-          <h2>{jobTitle}</h2>
-          <ul>
-            {missions.map((mission, index) => (
-              <li className='txt' key={index}>{mission}</li>
-            ))}
-          </ul>
+        <div className='expcard-info-company'>
+            <p className='txt-expcard-company'>{companyName}</p>
+            <h2 className='txt-expcard-jobTitle'>{jobTitle}</h2>
+            <p className='txt-expcard-date'>{duration}</p>
         </div>
       </div>
     </div>
+
   );
 };
 
-export default EntrepriseBanner;
+export default CompanyBanner;

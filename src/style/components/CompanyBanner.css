@@ -1,0 +1,35 @@
+.company-banner {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-card-company{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: var(--secclear);
+    width: 75vw;
+    height: 40vh;
+    overflow: hidden;
+    border: medium solid var(--main-green);
+
+}
+
+.companycard-picside {
+    position: relative;
+    width: 35%;
+    overflow: hidden;
+    border-right: medium solid var(--main-green);
+}
+
+.expcard-info-company {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10%;
+    padding: 2em 4em;
+}

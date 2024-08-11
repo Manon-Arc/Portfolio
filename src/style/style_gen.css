@@ -188,6 +188,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    height: fit-content;
     background: var(--gradiant-green);
 }
 

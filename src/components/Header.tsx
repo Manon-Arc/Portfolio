@@ -18,7 +18,9 @@ const Header = () => {
   ];
 
   useEffect(() => {
-    const category = categories.find((cat) => cat.link === location.pathname);
+    // Vérifie si le chemin actuel correspond à une catégorie
+    const path = location.pathname;
+    const category = categories.find((cat) => path.startsWith(cat.link) && (path.length === cat.link.length || path[cat.link.length] === '/'));
     if (category) {
       setSelectedCategory(category.name);
     } else {
