@@ -9,6 +9,7 @@ import Experiences from './src/Pages/Experience';
 import NotFound from './src/components/NoFound';
 import A_propos from './src/Pages/A_Propos';
 import Blog from './src/Pages/Blog';
+import BlogDetail from './src/Pages/BlogDetail'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/realisations" element={<Realisations />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<BlogDetail />} />
           <Route path="*" element={<NotFound />} /> {/* Route 404 */}
         </Routes>
         <Footer />

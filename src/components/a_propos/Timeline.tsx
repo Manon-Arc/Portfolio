@@ -1,6 +1,6 @@
 import '../../style/components/Timeline.css';
 import { Chrono } from "react-chrono";
-import { events } from '../../data/events';
+import { formations } from '../../data/formations';
 
 const A_propos = () => {
 	return (
@@ -13,7 +13,7 @@ const A_propos = () => {
 			<div className='timeline-zone'>
 				<div className='timeline' style={{ width: "100vw" }}>
 					<Chrono
-						items={events}
+						items={formations}
 						theme={{
 							primary: '#3f7c7e',
 							secondary: '#2c5758',

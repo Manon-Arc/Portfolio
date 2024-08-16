@@ -2,12 +2,13 @@ import React from 'react';
 import { Card, CardContent, CardMedia, Typography, Box, CardActions, Button, Avatar } from '@mui/material';
 
 interface ArticleCardProps {
+    id: number;
     image: string;
     title: string;
     date: string;
 }
 
-const ArticleCard: React.FC<ArticleCardProps> = ({ image, title, date }) => (
+const ArticleCard: React.FC<ArticleCardProps> = ({ id, image, title, date }) => (
     <Card sx={{ width: 360, maxWidth: 380, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', transition: 'transform 0.3s ease-in-out', '&:hover': { transform: 'scale(1.03)' } }}>
         <CardMedia
             component="img"
@@ -60,6 +61,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ image, title, date }) => (
                 justifyContent: 'flex-end'
             }}>
             <Button 
+            href={`/blog/${id}`}
                 size="small" 
                 sx={{ 
                     color: '#347274',

@@ -71,7 +71,8 @@ function PauseOnHover() {
                     {recentArticles.map((article) => (
                         <div className="centered-slide" key={article.id}>
                             <ArticleCard
-                                image={article.image}
+                                id={article.id}
+                                image={article.background}
                                 title={article.title}
                                 date={article.date.toLocaleDateString('fr-FR', {
                                     year: 'numeric',

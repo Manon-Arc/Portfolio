@@ -1,4 +1,4 @@
-const texteComplet: string = "Développeuse informatique";
+const texteComplet: string = "Développeuse junior";
 const vitesseEcriture: number = 110;
 const vitesseEffacement: number = 50;
 const pauseAvantEffacement: number = 1200;

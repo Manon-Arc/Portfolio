@@ -14,7 +14,7 @@ const Accueil = () => {
       <div className="sec-1g">
         <p className="name">ARCAS Manon</p>
         <p className="txt-intro" id="animation_machine"></p>
-        <p className="txt-subtitle recherche">Développeuse informatique, logiciel et IoT</p>
+        <p className="txt-subtitle recherche">Développeuse web, logiciel et IoT</p>
         <a href='#1' className="btn a-propos">
           <p className="txt-btn">A propos</p>
         </a>

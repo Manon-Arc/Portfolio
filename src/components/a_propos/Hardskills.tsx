@@ -33,7 +33,7 @@ import docker from '../../assets/a_propos/compétences/docker.png'
 import bash from '../../assets/a_propos/compétences/bash.png'
 
 import git from '../../assets/a_propos/compétences/git.png'
-import github from '../../assets/a_propos/compétences/github.png'
+import github from '../../assets/a_propos/compétences/github.svg'
 import gitlab from '../../assets/a_propos/compétences/gitlab.webp'
 
 import figma from '../../assets/a_propos/compétences/figma.webp'

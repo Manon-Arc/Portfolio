@@ -1,0 +1,54 @@
+/* Conteneur principal pour l'article */
+.article-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Section 1: Introduction */
+.section-intro {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+
+/* Section 2: Alternating Images and Text */
+.section-alternate {
+  margin: 20px 0;
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.section-content img {
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  margin: 0 20px;
+}
+
+.section-content p {
+  width: 50%;
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Alternance des images à droite ou à gauche */
+.section-content.image-right {
+  flex-direction: row-reverse;
+}
+
+.section-content.image-left {
+  flex-direction: row;
+}
+
+/* Section 3: Conclusion */
+.section-conclusion {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.2em;
+}

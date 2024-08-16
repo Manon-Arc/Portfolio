@@ -1,6 +1,6 @@
 import '../../style/components/Presentation.css';
 import '../../style/style_gen.css';
-import logo from '../../assets/home/portfolio.svg';
+import logo from '../../assets/portfolio.svg';
 
 const A_propos = () => {
   return (
