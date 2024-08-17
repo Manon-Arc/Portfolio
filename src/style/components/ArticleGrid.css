@@ -1,9 +1,13 @@
+.entrepriseArticles {
+    padding: 40px 0;
+    background-color: var(--secmedcle);
+}
+
 .articlegrid {
     width: 100%;
-    margin: 5% 0;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    padding: 0 20px;
-    background-color: var(--secmedium);
+    padding-top: 15px;
+    padding-bottom: 50px;
 }

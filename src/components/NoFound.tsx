@@ -20,7 +20,7 @@ const NotFound: React.FC = () => {
                         <div className="construction">
                             <h1 className="title">404 not found</h1>
                         </div>
-                        <p className="txt">Cette partie du site n'existe pas reviens à  l'accueil en cliquant sur le logo en haut à gauche !</p>
+                        <p className="txt">Cette partie du site n'existe pas reviens à l'accueil en cliquant sur le logo en haut à gauche !</p>
                         <div className="sec2-b">
                         <div className="logo">
                             <div className="git">

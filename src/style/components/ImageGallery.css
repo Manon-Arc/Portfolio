@@ -1,3 +1,8 @@
+.imagegallery {
+  padding: 50px 0;
+  background-color: var(--secmedcle);
+}
+
 .masonry-grid {
   display: flex;
   margin-left: -30px;

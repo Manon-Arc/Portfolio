@@ -6,8 +6,7 @@ import EntrepriseDesc from '../components/experienceDetail/EntrepriseDesc';
 import Missions from '../components/experienceDetail/Missions';
 import EntrepriseArticleGrid from '../components/experienceDetail/EntrepriseArticles';
 import NotFound from '../components/NoFound';
-import '../style/pages/ExperienceDetail.css'
-import '../style/style_gen.css'
+import '../style/style_gen.css';
 
 const ExperienceDetail: React.FC = () => {
 	const { id } = useParams<{ id: string }>();

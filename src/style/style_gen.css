@@ -36,59 +36,59 @@ body {
 .txt-intro {
     font-size: 3rem;
     color: var(--title);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-weight: bold;
     width: fit-content;
 }
 .txt-title {
     font-size: 2rem;
     color: var(--txt);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-weight: bold;
 }
 
 .txt-real {
     font-size: 4rem;
     color: var(--title);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-weight: bold;
 }
 
 .txt-subtitle {
     font-size: 1.25rem;
     color: var(--txt);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-weight: 300;
 }
 
 .txt {
     color: var(--txt);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-size: medium;
 }
 
 .txt-category {
     font-size: 1rem;
     color: var(--title);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
 }
 
 .txt-contact-style {
     font-size: 1rem;
     color: var(--title);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-weight: 500;
 }
 
 .txt-blog-pres {
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     color: var(--txt);
     font-weight: 400;
     font-size: 1rem;
 }
 
 .txt-blog-title {
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     color: var(--txt);
     font-weight: 400;
     font-size: 1.3rem;
@@ -111,46 +111,45 @@ body {
 }
 
 .txt-category-real {
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     color: var(--txt);
     font-weight: medium;
 }
 
 .txt-category-real:hover {
-    cursor: pointer;
-}
+    cursor: p}
 
 .txt-Portfolio {
     font-size: 1.3rem;
     color: var(--main-green);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-weight: bold;
 }
 
 .txt-contact {
     font-size: 2rem;
     color: white;
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-weight: bold;
 }
 
 .txt-hardsoft {
     font-size: 1rem;
     color: var(--txt);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-weight: 300;
 }
 
 .logiciel-link {
     color: var(--txt);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-style: italic;
     font-size: small;
 }
 
 .name {
     color: var(--txt);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-size: 2rem;
     font-weight: 400;
 }
@@ -158,25 +157,25 @@ body {
 .txt-expcard-company {
     font-size: 1rem;
     color: var(--title);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
 }
 
 .txt-expcard-jobTitle {
     font-size: 1.5rem;
     color: var(--title);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
 }
 
 .txt-expcard-date {
     font-size: 1rem;
     color: var(--title);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
 }
 
 
 .txt-btn {
     color: var(--title);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-size: 1.1rem;
     font-weight: 200;
     padding: 1rem;
@@ -214,7 +213,7 @@ body {
 
 .spe-title {
     color: var(--title);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-size: medium;
     font-weight: 600;
     margin: 1rem;
@@ -241,7 +240,6 @@ body {
     opacity: 0;
     bottom: 0.9dvh;
     transition: opacity 0.3s ease;
-    pointer-events: none;
     white-space: nowrap;
 }
 
@@ -262,7 +260,7 @@ body {
 
 .txt-droits {
     color: var(--txt);
-    font-family: "Inter", sans-serif;
+    font-family:  sans-serif;
     font-size: small;
     font-weight: 200;
 }

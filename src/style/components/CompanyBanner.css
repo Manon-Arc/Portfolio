@@ -5,6 +5,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: var(--secdarker);
 }
 
 .experience-card-company{
@@ -30,6 +31,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 10%;
+    gap: 15%;
     padding: 2em 4em;
 }

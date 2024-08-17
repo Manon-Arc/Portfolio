@@ -15,7 +15,7 @@ const ImagesGallery: React.FC<ImagesGalleryProps> = ({ images }) => {
     };
 
     return (
-        <div>
+        <div className='imagegallery'>
             <div className="title-line">
                 <div className="line"></div>
                 <p className="txt-title">Plus d'images</p>

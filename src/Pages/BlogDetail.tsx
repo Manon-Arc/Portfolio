@@ -5,8 +5,7 @@ import ArticleIntro from '../components/blogDetail/ArticleIntro';
 import ArticleContent from '../components/blogDetail/ArticleContent';
 import ImageGallery from '../components/blogDetail/ImagesGallery';
 import NotFound from '../components/NoFound';
-import '../style/pages/ExperienceDetail.css'
-import '../style/style_gen.css'
+import '../style/style_gen.css';
 
 const ArticleDetail: React.FC = () => {
     const { id } = useParams<{ id: string }>();

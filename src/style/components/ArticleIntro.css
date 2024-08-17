@@ -2,7 +2,8 @@
 	display: flex;
 	width: 100%;
 	flex-direction: column;
-	padding: 5% 13%;
+	padding: 0 13%;
+	padding-top: 7%;
 }
 
 .article-title {
@@ -33,7 +34,6 @@
 .article-image {
 	width: 100%;
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	margin-top: 8%;
 }

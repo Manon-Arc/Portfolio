@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Typography, List, ListItem } from '@mui/material';
+import { Container, List, ListItem } from '@mui/material';
 import '../../style/style_gen.css';
 import '../../style/components/Missions.css'
 
@@ -17,13 +17,13 @@ const Missions: React.FC<MissionProps> = ({ missions, introMission }) => {
 				<div className="line"></div>
 			</div>
 			<Container>
-				<Typography variant="h6" sx={{ color: "var(--txt)" }}>
+				<p className='txt'>
 					{introMission}
-				</Typography>
+				</p>
 				<List>
 					{missions.map((mission, index) => (
 						<ListItem key={index}>
-							<Typography>{mission}</Typography>
+							<p className='txt'>{mission}</p>
 						</ListItem>
 					))}
 				</List>

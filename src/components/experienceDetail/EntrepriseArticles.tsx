@@ -1,7 +1,7 @@
 import { Container, Grid } from '@mui/material';
 import ArticleCard from '../blog/ArticleCard';
 import { articles } from '../../data/articles';
-import '../../style/components/ArticleGrid.css';
+import '../../style/components/ArticleGridExp.css';
 import '../../style/style_gen.css';
 
 interface CompanyArticlesProps {
@@ -20,13 +20,13 @@ const EntrepriseArticleGrid: React.FC<CompanyArticlesProps> = ({ companyName, id
     }
 
     return (
-        <div>
+        <div className='entrepriseArticles'>
             <div className="title-line">
                 <div className="line"></div>
                 <p className="txt-title">Articles en lien avec {companyName}</p>
                 <div className="line"></div>
             </div>
-            <Container className='articlegrid'>
+            <Container className='articlegrid-exp'>
                 <Grid container spacing={5} justifyContent="center">
                     {Articles.map((article, index) => (
                         <Grid item xs={12} sm={6} md={4} key={index} sx={{ display: 'flex', justifyContent: 'center' }}>

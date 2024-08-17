@@ -25,7 +25,7 @@ function App() {
           <Route path="/realisations" element={<Realisations />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogDetail />} />
-          <Route path="*" element={<NotFound />} /> {/* Route 404 */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>
