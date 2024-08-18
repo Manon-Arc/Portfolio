@@ -153,20 +153,28 @@ export const articles = [
   {
     id: 6,
     experienceId: 2,
-    background: '/src/assets/blog/articles/YOLOv8_YouTube_Thumbnail-p-50.png',
+    background: '/src/assets/blog/articles/reseaux_neurones/ultralytics.png',
     title: 'Découverte et manipulation de réseaux de neurones', date: new Date('2024-07-04'),
     content: {
-      sec1: "Introduction de l'article",
+      sec1: "Dans le cadre du projet UCIA, j’ai eu l’opportunité de travailler sur diverses technologies, mais l'intelligence artificielle (IA) était un domaine que je n'avais pas encore exploré en profondeur. C’était ma première expérience concrète avec un modèle d’IA, ce qui m’a permis d'approfondir un sujet qui m'intéressait depuis longtemps, sans que j'aie eu vraiment l'occasion de m'y plonger. Après avoir finalisé mes autres tâches, j’ai décidé de me concentrer sur l’étude et la manipulation du modèle YOLO v8, utilisé pour la reconnaissance d’objets.",
       sec2: {
-        sec2_1: { content: "Description de l'image 1", img: "/src/assets/blog/articles/interface1.svg" },
-        sec2_2: { content: "Description de l'image 2", img: "/src/assets/blog/articles/interface2.svg" },
-        sec2_3: { content: "Description de l'image 3", img: "/src/assets/blog/articles/interface3.svg" },
+        sec2_1: { 
+          content: "YOLO (You Only Look Once) est un modèle de détection d’objets en temps réel, réputé pour son efficacité et sa rapidité. En tant que novice dans le domaine de l'IA, ce modèle représentait un défi technique stimulant. J'ai commencé par explorer les modèles disponibles via une API fournie par l’entreprise, avec pour objectif de comprendre leur fonctionnement et leur processus d'entraînement.", 
+          img: "/src/assets/blog/articles/reseaux_neurones/recognize.svg" },
+        sec2_2: { 
+          content: "Pour cela, j'ai créé plusieurs datasets personnalisés, ce qui m'a aidé à mieux comprendre les exigences spécifiques en matière de données pour un modèle de détection d'objets. Utilisant Jupyter Notebook, j'ai appliqué des connaissances acquises en dataanalyse pour entraîner et valider les modèles YOLO. J'ai ainsi pu observer leurs performances sur des données réelles ", 
+          img: "/src/assets/blog/articles/reseaux_neurones/dataset.png" },
+        sec2_3: { 
+          content: "Pour partager mes découvertes, j’ai créé un dépôt Git rassemblant mes travaux autour du modèle YOLO v8. Ce dépôt inclut une fiche explicative sur le fonctionnement d'une IA de reconnaissance d’objets, destinée à un public varié, technique ou non. Cette documentation vise à démystifier les concepts clés de l’IA tout en offrant des exemples concrets de mise en œuvre. En complément, j'ai développé plusieurs scripts : un script de détection d’objet qui renvoit une image annotée avec l’objet reconnu, son label et le niveau de confiance ; un script d’entraînement afin de former le modèle sur un dataset personnalisé et enfin un serveur Flask permettant d'uploader une image via une interface web et de recevoir en retour l’image annotée, démontrant l'intégration du modèle d'IA dans une application web.", 
+          img: "/src/assets/blog/articles/reseaux_neurones/git.svg" },
       },
-      sec3: 'Conclusion de l\'article',
+      sec3: "L'accueil de ce travail par l'équipe projet a été très positif, soulignant qu'il constituait une excellente base pour développer de nouveaux ateliers pédagogiques dans le cadre du projet UCIA. Cette reconnaissance a été particulièrement gratifiante pour moi, et l'initiative m'a permis de mettre en pratique diverses compétences, du développement web à la gestion d’API, en passant par la dataanalyse et la documentation technique. Cette exploration de l’IA a été une expérience extrêmement enrichissante et formatrice. Combiner théorie et pratique m’a permis de consolider mes connaissances techniques et de renforcer ma capacité à aborder des sujets complexes. Voir mon travail reconnu par l'équipe projet et envisagé pour des applications futures a été une grande source de satisfaction. Cette expérience m’a offert un aperçu précieux des défis et opportunités liés à l'intelligence artificielle.",
     },
     images: [
-      '/src/assets/blog/articles/qlqc',
-      '/src/assets/blog/articles/qlqc'
+      '/src/assets/blog/articles/reseaux_neurones/compvision_tasks.png',
+      '/src/assets/blog/articles/reseaux_neurones/conv.png',
+      '/src/assets/blog/articles/reseaux_neurones/CNN_schematic.png',
+      '/src/assets/blog/articles/reseaux_neurones/CNN_layout.gif'
     ],
     author: {
       name: 'Manon Arcas',
