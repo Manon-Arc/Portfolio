@@ -3,7 +3,7 @@ import '../../style/components/ArticleContent.css';
 
 interface SectionWithImage {
   content: string;
-  img?: string; // made img optional
+  img?: string;
 }
 
 interface ArticleContentProps {
@@ -14,7 +14,7 @@ interface ArticleContentProps {
     sec2_3: SectionWithImage;
   };
   sec3: string;
-  video?: string; // made video optional
+  video?: string;
 }
 
 const ArticleContent: React.FC<ArticleContentProps> = ({ sec1, sec2, sec3, video }) => {

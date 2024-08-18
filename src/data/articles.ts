@@ -91,7 +91,7 @@ export const articles = [
   {
     id: 4,
     experienceId: 2,
-    background: '/src/assets/blog/articles/interface.svg',
+    background: '/src/assets/blog/articles/interface/interface.svg',
     title: 'Projet interface de contrôle',
     date: new Date('2024-06-14'),
     content: {
@@ -99,7 +99,7 @@ export const articles = [
       sec2: {
         sec2_1: { 
           content: "Tout d’abord, mon premier travail a été de déterminer quelles fonctionnalités devaient être incluses sur cette interface mais également de définir son design. S’en est alors suivi l’étape de maquettage. Cette étape s’est avérée bien plus complexe qu’il n’y paraissait afin de réaliser une interface intuitive, simple d’utilisation et adaptée au public cible. J’ai décidé de me pencher sur la technologie « Scratch », reconnue pour sa simplicité et son design ludique.", 
-          img: "/src/assets/blog/articles/interface/interrogation.png" 
+          img: "/src/assets/blog/articles/interface/interrogation.svg" 
         },
         sec2_2: { 
           content: "La deuxième étape a été de trouver comment rendre cette interface accessible sans nécessiter d’importantes manipulations techniques de la part des utilisateurs. Le module Raspberry hébergeait déjà un serveur web donnant accès à plusieurs fonctionnalités, il était donc plus simple de se greffer directement à ce même serveur.", 

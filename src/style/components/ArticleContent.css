@@ -30,9 +30,8 @@
 }
 
 .section-content img {
-  width: 50%;
   max-width: 400px;
-  height: auto;
+  height: 20%;
   margin: 0 20px;
 }
 
