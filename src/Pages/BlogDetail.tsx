@@ -38,6 +38,7 @@ const ArticleDetail: React.FC = () => {
                 sec1={article.content.sec1}
                 sec2={article.content.sec2}
                 sec3={article.content.sec3}
+                video={article.video}
             />
             <ImageGallery 
                 images={article.images}

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../../style/components/ExperienceCard.css';
 import '../../style/style_gen.css';
 
@@ -16,7 +15,7 @@ interface ExperienceCardProps {
 const ExperienceCard: React.FC<ExperienceCardProps> = ({ id, backpicUrl, logoUrl, companyName, jobTitle, duration, missions }) => {
   return (
     <div>
-      <Link to={`/experience/${id}`} className="experience-card">
+      <a href={`/experience/${id}`} className="experience-card">
         <div className='expcard-picside'>
           <img className='expcard-img expcard-imgback' src={backpicUrl} alt='backpic' />
           <img className='expcard-img expcard-imgcompany' src={logoUrl} alt={`${companyName} logo`} />
@@ -33,7 +32,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ id, backpicUrl, logoUrl
             ))}
           </ul>
         </div>
-      </Link>
+      </a>
     </div>
   );
 };

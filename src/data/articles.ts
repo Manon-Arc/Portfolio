@@ -18,6 +18,7 @@ export const articles = [
       '/src/assets/blog/articles/qlqc',
       '/src/assets/blog/articles/qlqc'
     ],
+    video: "",
     author: {
       name: 'Manon Arcas',
       avatar: '/src/assets/blog/me.jpg'
@@ -43,6 +44,7 @@ export const articles = [
       '/src/assets/blog/articles/qlqc',
       '/src/assets/blog/articles/qlqc'
     ],
+    video: "",
     author: {
       name: 'Manon Arcas',
       avatar: '/src/assets/blog/me.jpg'
@@ -79,6 +81,7 @@ export const articles = [
       '/src/assets/blog/articles/robocup/robocup_nao.jpg',
       '/src/assets/blog/articles/robocup/robocup_jury.JPG'
     ],
+    video: "",
     author: {
       name: 'Manon Arcas',
       avatar: '/src/assets/blog/me.jpg'
@@ -92,23 +95,38 @@ export const articles = [
     title: 'Projet interface de contrôle',
     date: new Date('2024-06-14'),
     content: {
-      sec1: "Introduction de l'article",
+      sec1: "Dans le cadre de mon stage, j’ai eu l’opportunité de travailler sur un projet innovant visant à simplifier la programmation du robot ROSA. En complément de mon travail de maintenance, j’ai eu pour objectif de rendre la programmation du ROSA facile et accessible à tous en développant une interface de programmation et de téléopération. J’ai été en totale autonomie pour la réalisation de cette tâche.",
       sec2: {
-        sec2_1: { content: "Description de l'image 1", img: "/src/assets/blog/articles/interface1.svg" },
-        sec2_2: { content: "Description de l'image 2", img: "/src/assets/blog/articles/interface2.svg" },
-        sec2_3: { content: "Description de l'image 3", img: "/src/assets/blog/articles/interface3.svg" },
+        sec2_1: { 
+          content: "Tout d’abord, mon premier travail a été de déterminer quelles fonctionnalités devaient être incluses sur cette interface mais également de définir son design. S’en est alors suivi l’étape de maquettage. Cette étape s’est avérée bien plus complexe qu’il n’y paraissait afin de réaliser une interface intuitive, simple d’utilisation et adaptée au public cible. J’ai décidé de me pencher sur la technologie « Scratch », reconnue pour sa simplicité et son design ludique.", 
+          img: "/src/assets/blog/articles/interface/interrogation.png" 
+        },
+        sec2_2: { 
+          content: "La deuxième étape a été de trouver comment rendre cette interface accessible sans nécessiter d’importantes manipulations techniques de la part des utilisateurs. Le module Raspberry hébergeait déjà un serveur web donnant accès à plusieurs fonctionnalités, il était donc plus simple de se greffer directement à ce même serveur.", 
+          img: "" 
+        },
+        sec2_3: { 
+          content: "Concernant les technologies, après plusieurs recherches, j’ai découvert « Blockly », une bibliothèque web développée par Google permettant d’ajouter un éditeur de code basé sur des blocs à une application. L’éditeur utilise des pièces de puzzle telles que des blocs pour représenter des concepts de code tels que des variables, des expressions logiques, des boucles, etc. Il permet aux utilisateurs de programmer sans avoir à se soucier de la syntaxe ou de l’intimidation de la ligne de commande. L’avantage de cette bibliothèque est qu’elle a la possibilité de fournir une liste de blocs prêts à l’emploi mais également de créer ses propres blocs personnalisés.", 
+          img: "/src/assets/blog/articles/interface/blockly.svg" 
+        },
+        sec2_4: { 
+          content: "L’interface se constitue donc de deux parties. Une première utilisant Blockly qui fournit une « boîte à outils » constituée de plusieurs blocs de différentes catégories : logique, boucles, texte, etc., avec la possibilité de choisir la langue entre français et anglais. Une zone affiche en temps réel le code correspondant à l’algorithme créé par les blocs et enfin une zone affiche la sortie une fois le programme exécuté, tel que les print par exemple.", 
+          img: "/src/assets/blog/articles/interface/partie_prog.png" 
+        },
+        sec2_5: { 
+          content: "La deuxième partie permet de contrôler le robot comme une manette, constituée d’un joystick pour permettre le déplacement du robot, d’un slider pour modifier la vitesse de déplacement et d’une visualisation de la valeur des différents capteurs.", 
+          img: "/src/assets/blog/articles/interface/partie_teleop.png" 
+        },
       },
-      sec3: 'Conclusion de l\'article',
+      sec3: 'Ce projet m’a permis de mettre en application mes connaissances en développement web mais également d’améliorer mes compétences en gestion d’API afin de permettre aux différents composants web d’interagir directement avec le robot. J’ai également appris à travailler de manière autonome, à gérer mon temps et à résoudre des problèmes complexes de manière créative. Ce projet a été une expérience extrêmement enrichissante. J’ai particulièrement apprécié la liberté et la responsabilité qui m’ont été accordées. Cela m’a permis de développer ma créativité et ma capacité à résoudre des problèmes de manière autonome. Les défis rencontrés, notamment lors de la phase de maquettage, m’ont appris à persévérer et à trouver des solutions innovantes. En fin de compte, voir l’interface fonctionner et être utilisée avec succès a été une grande source de satisfaction et de fierté.',
     },
-    images: [
-      '/src/assets/blog/articles/qlqc',
-      '/src/assets/blog/articles/qlqc'
-    ],
+    images: [],
+    video: "/src/assets/blog/articles/interface/Demo_interface_accéléré.mp4",
     author: {
       name: 'Manon Arcas',
       avatar: '/src/assets/blog/me.jpg'
     },
-    time: 1,
+    time: 3,
   },
   {
     id: 5,
@@ -144,6 +162,7 @@ export const articles = [
       '/src/assets/blog/articles/restitution_UCIA/presentation_script_IA_3.png',
       '/src/assets/blog/articles/restitution_UCIA/reconnaissance.JPG'
     ],
+    video: "",
     author: {
       name: 'Manon Arcas',
       avatar: '/src/assets/blog/me.jpg'
@@ -176,6 +195,7 @@ export const articles = [
       '/src/assets/blog/articles/reseaux_neurones/CNN_schematic.png',
       '/src/assets/blog/articles/reseaux_neurones/CNN_layout.gif'
     ],
+    video: "",
     author: {
       name: 'Manon Arcas',
       avatar: '/src/assets/blog/me.jpg'

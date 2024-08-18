@@ -17,7 +17,7 @@ const Missions: React.FC<MissionProps> = ({ missions, introMission }) => {
 				<div className="line"></div>
 			</div>
 			<Container>
-				<p className='txt'>
+				<p className='txt missions-intro'>
 					{introMission}
 				</p>
 				<List>

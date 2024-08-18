@@ -37,7 +37,7 @@
 }
 
 .section-content p {
-  width: 50%;
+  flex: 1;
   margin: 0;
   font-size: 1em;
 }
@@ -48,6 +48,17 @@
 
 .section-content.image-left {
   flex-direction: row;
+}
+
+.video-section {
+  display: flex;
+  justify-content: center;
+}
+
+.video-section video {
+  width: 75%;
+  border-radius: 20px;
+  margin-bottom: 60px;
 }
 
 .section-conclusion {

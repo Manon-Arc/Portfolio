@@ -7,3 +7,7 @@
     background-color: var(--secmedium);
     padding: 40px 0;
 }
+
+.missions-intro {
+    line-height: 1.6;
+}
