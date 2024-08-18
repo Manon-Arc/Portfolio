@@ -15,6 +15,10 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ id, image, title, date }) => 
             height="250"
             image={image}
             alt={title}
+            sx={{
+                backgroundColor: 'rgb(24, 29, 29)', // Blanc avec 50% de transparence
+                objectFit: 'cover' // Assure que l'image couvre entièrement le composant
+            }}
         />
         <CardContent
             sx={{

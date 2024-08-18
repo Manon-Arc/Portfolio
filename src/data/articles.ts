@@ -198,19 +198,23 @@ export const articles = [
     id: 6,
     experienceId: 2,
     background: '/src/assets/blog/articles/reseaux_neurones/ultralytics.png',
-    title: 'Découverte et manipulation de réseaux de neurones', date: new Date('2024-07-04'),
+    title: 'Découverte et manipulation de réseaux de neurones', 
+    date: new Date('2024-07-04'),
     content: {
       sec1: "Dans le cadre du projet UCIA, j’ai eu l’opportunité de travailler sur diverses technologies, mais l'intelligence artificielle (IA) était un domaine que je n'avais pas encore exploré en profondeur. C’était ma première expérience concrète avec un modèle d’IA, ce qui m’a permis d'approfondir un sujet qui m'intéressait depuis longtemps, sans que j'aie eu vraiment l'occasion de m'y plonger. Après avoir finalisé mes autres tâches, j’ai décidé de me concentrer sur l’étude et la manipulation du modèle YOLO v8, utilisé pour la reconnaissance d’objets.",
       sec2: {
         sec2_1: { 
           content: "YOLO (You Only Look Once) est un modèle de détection d’objets en temps réel, réputé pour son efficacité et sa rapidité. En tant que novice dans le domaine de l'IA, ce modèle représentait un défi technique stimulant. J'ai commencé par explorer les modèles disponibles via une API fournie par l’entreprise, avec pour objectif de comprendre leur fonctionnement et leur processus d'entraînement.", 
-          img: "/src/assets/blog/articles/reseaux_neurones/recognize.svg" },
+          img: "/src/assets/blog/articles/reseaux_neurones/recognize.svg" 
+        },
         sec2_2: { 
           content: "Pour cela, j'ai créé plusieurs datasets personnalisés, ce qui m'a aidé à mieux comprendre les exigences spécifiques en matière de données pour un modèle de détection d'objets. Utilisant Jupyter Notebook, j'ai appliqué des connaissances acquises en dataanalyse pour entraîner et valider les modèles YOLO. J'ai ainsi pu observer leurs performances sur des données réelles ", 
-          img: "/src/assets/blog/articles/reseaux_neurones/dataset.png" },
+          img: "/src/assets/blog/articles/reseaux_neurones/dataset.png" 
+        },
         sec2_3: { 
           content: "Pour partager mes découvertes, j’ai créé un dépôt Git rassemblant mes travaux autour du modèle YOLO v8. Ce dépôt inclut une fiche explicative sur le fonctionnement d'une IA de reconnaissance d’objets, destinée à un public varié, technique ou non. Cette documentation vise à démystifier les concepts clés de l’IA tout en offrant des exemples concrets de mise en œuvre. En complément, j'ai développé plusieurs scripts : un script de détection d’objet qui renvoit une image annotée avec l’objet reconnu, son label et le niveau de confiance ; un script d’entraînement afin de former le modèle sur un dataset personnalisé et enfin un serveur Flask permettant d'uploader une image via une interface web et de recevoir en retour l’image annotée, démontrant l'intégration du modèle d'IA dans une application web.", 
-          img: "/src/assets/blog/articles/reseaux_neurones/git.svg" },
+          img: "/src/assets/blog/articles/reseaux_neurones/git.svg" 
+        },
       },
       sec3: "L'accueil de ce travail par l'équipe projet a été très positif, soulignant qu'il constituait une excellente base pour développer de nouveaux ateliers pédagogiques dans le cadre du projet UCIA. Cette reconnaissance a été particulièrement gratifiante pour moi, et l'initiative m'a permis de mettre en pratique diverses compétences, du développement web à la gestion d’API, en passant par la dataanalyse et la documentation technique. Cette exploration de l’IA a été une expérience extrêmement enrichissante et formatrice. Combiner théorie et pratique m’a permis de consolider mes connaissances techniques et de renforcer ma capacité à aborder des sujets complexes. Voir mon travail reconnu par l'équipe projet et envisagé pour des applications futures a été une grande source de satisfaction. Cette expérience m’a offert un aperçu précieux des défis et opportunités liés à l'intelligence artificielle.",
     },
@@ -226,5 +230,53 @@ export const articles = [
       avatar: '/src/assets/blog/me.jpg'
     },
     time: 2,
+  },
+  {
+    id: 7,
+    experienceId: 2,
+    background: '/src/assets/blog/articles/bilan_LE/logo_back.svg',
+    title: "Bilan - Stage à la Ligue de l'Enseignement Gironde", 
+    date: new Date('2024-07-08'),
+    content: {
+      sec1: "A l’issue de mon stage au sein de la Ligue de l’enseignement, je souhaite partager un bilan de cette expérience, caractérisée par le développement de nombreuses compétences, de défis stimulants et une immersion approfondie dans le monde professionnel.",
+      sec2: {
+        sec2_1: { 
+          content: "Mon stage au sein de la Ligue de l’enseignement a été une expérience profondément enrichissante, tant sur le plan technique que personnel. J'ai particulièrement apprécié l'autonomie qui m'a été accordée tout au long de mes missions. Cette liberté m'a permis de mener à bien des projets complexes, en prenant des décisions de manière indépendante, ce qui m'a fortement aidée à gagner en confiance et en compétence. Travailler sur le projet UCIA a été particulièrement stimulant, car il m’a permis de mettre en pratique et consolider des compétences acquises durant mes études mais également de combiner des domaines variés, tels que l'intelligence artificielle, la robotique, et le développement web. Cette diversité a rendu mon travail d'autant plus intéressant et m'a montré à quel point combiner plusieurs disciplines, bien que différentes, peut donner vie à des projets innovants.", 
+          img: "/src/assets/blog/articles/bilan_LE/reflexion.png" 
+        },
+        sec2_2: { 
+          content: "Cependant, cette autonomie a également présenté certains défis. Bien que j'aie apprécié la liberté de gérer mon travail, j'ai parfois ressenti un manque d'accompagnement, notamment sur des aspects techniques très spécifiques. Ce manque de soutien était compréhensible, étant donné que la spécialité de l'organisme n'était pas purement technique. Néanmoins, cela m'a forcée à développer mes compétences en autodidaxie et à trouver des solutions par moi-même, ce qui s'est avéré formateur et bénéfique à long terme.", 
+          img: "" 
+        },
+        sec2_3: { 
+          content: "Ce stage m'a offert l'opportunité d'acquérir une expérience significative dans plusieurs domaines essentiels. Tout d’abord, la gestion de projets techniques a été un aspect central de mon travail. Participer à toutes les étapes du projet UCIA, de la conception initiale à la présentation finale, m'a permis de développer une approche structurée de la planification et de la gestion du temps. J'ai également pu affiner mes compétences en communication, en veillant à ce que les différentes parties prenantes soient informées de l'avancement du projet et en récoltant des retours constructifs.", 
+          img: "" 
+        },
+        sec2_4: { 
+          content: "Sur le plan technique, le développement web et l’intelligence artificielle ont été au cœur de mon activité. Le développement de l'interface de programmation pour le robot ROSA, combinant des technologies comme Blockly et Flask, m’a permis de mettre en pratique mes compétences en développement tout en apprenant à gérer des API et à intégrer diverses fonctionnalités dans une application cohérente. De plus, mon travail sur le modèle YOLO v8 m’a offert une première expérience concrète dans l’univers de l'intelligence artificielle. La création de datasets personnalisés, l'entraînement et le déploiement de modèles, ainsi que l'analyse des résultats, ont enrichi ma compréhension de ce domaine en plein essor.", 
+          img: "/src/assets/blog/articles/bilan_LE/competences.png" 
+        },
+        sec2_5: { 
+          content: "En parallèle, j'ai également dû gérer divers aspects liés à la maintenance et au déploiement des systèmes sur lesquels j’ai travaillé. Les défis rencontrés, comme les problèmes techniques imprévus lors des démonstrations, m’ont appris à réagir rapidement et à trouver des solutions efficaces sous pression. Ces expériences m'ont permis de renforcer ma capacité à rester calme et à gérer les imprévus, des compétences essentielles dans un environnement professionnel.", 
+          img: "" 
+        },
+        sec2_6: { 
+          content: "Malgré les nombreuses compétences que j’ai pu développer, certaines zones de ce stage pourraient être améliorées. Tout d’abord, j’aurais apprécié un peu plus d'accompagnement. Bien que travailler seule sur ait été formateur, un soutien technique supplémentaire aurait pu rendre certaines tâches plus fluides et moins chronophages.", 
+          img: "" 
+        },
+        sec2_7: { 
+          content: "Ensuite, l’accès à une documentation plus complète dès le début aurait facilité la réalisation de certains projets, notamment en ce qui concerne le déploiement de logiciels et la gestion des dépendances. Disposer de ressources plus structurées aurait non seulement simplifié mon travail, mais aurait également permis de mieux comprendre certaines nuances techniques dès les premières étapes du projet.", 
+          img: "/src/assets/blog/articles/bilan_LE/tech.png" 
+        },
+      },
+      sec3: "En conclusion, ce stage a été une expérience extrêmement formatrice qui m’a permis de consolider mes compétences techniques, de découvrir de nouveaux domaines, et de gagner en autonomie. Il m’a aussi montré l’importance de la communication et de la collaboration interdisciplinaire pour mener à bien des projets.",
+    },
+    images: [],
+    video: "",
+    author: {
+      name: 'Manon Arcas',
+      avatar: '/src/assets/blog/me.jpg'
+    },
+    time: 4,
   },
 ];
