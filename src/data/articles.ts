@@ -56,17 +56,23 @@ export const articles = [
     title: 'Open France Robocup Junior 2024',
     date: new Date('2024-05-26'),
     content: {
-      sec1: "Introduction de l'article",
+      sec1: "Le week-end du 25 au 26 mai 2024 se tenait l'Open France de la RoboCup Junior à Bordeaux, au Parc des Expositions. La RoboCup est l’une des compétitions internationales de robotique les plus complètes et complexes au monde. Elle réunit chaque année des milliers de participants, formant des centaines d'équipes venant d'une cinquantaine de pays. C'est l’un des événements technologiques les plus importants au monde en matière de recherche et d'éducation en robotique.",
       sec2: {
-        sec2_1: { content: "Description de l'image 1", img: "/src/assets/blog/articles/interface1.svg" },
-        sec2_2: { content: "Description de l'image 2", img: "/src/assets/blog/articles/interface2.svg" },
-        sec2_3: { content: "Description de l'image 3", img: "/src/assets/blog/articles/interface3.svg" },
+        sec2_1: { 
+          content: "Bien que la RoboCup soit une compétition, elle est avant tout une communauté où les participants échangent tout au long de l'événement. De nombreuses technologies développées par les compétiteurs sont ouvertes. Chaque RoboCup est également l’occasion d’un Symposium International, un haut lieu de présentation et de discussion de contributions scientifiques abordant un large éventail de domaines liés à la recherche et à la pédagogie en matière de robotique et d’intelligence artificielle. Afin d’encourager le plus grand partage possible des connaissances, un axe spécifique du Symposium est consacré aux développements « ouverts » (open source).", 
+          img: "/src/assets/blog/articles/robocup/logo_robocup.png" },
+        sec2_2: { 
+          content: "Si les compétiteurs sont essentiellement issus du monde universitaire ou de la R&D, la RoboCup comporte également un volet éducatif très important. En effet, des centaines d'enfants et d'adolescents de 13 à 19 ans participent à la ligue junior, la RoboCupJunior. Cet événement de grande envergure rassemble de jeunes talents passionnés de robotique et les met au défi à travers plusieurs épreuves mettant en avant des compétences techniques et collaboratives. Parmi les ligues, on retrouve notamment : Soccer, OnStage ,Rescue Maze et Line et @Home Education.", 
+          img: "/src/assets/blog/articles/robocup/robocup_rescueline.jpg" 
+        },
+        sec2_3: { 
+          content: "Pour la deuxième année consécutive, j'ai eu l'honneur de participer en tant que jurée pour l'épreuve Rescue Line, mais également en tant qu'animatrice de stand pour la Ligue de l'Enseignement - Fédération Gironde. Cet événement a été l'occasion de présenter au grand public le projet UCIA, sur lequel j’ai travaillé durant ces trois mois de stage. Sur le stand, nous avons pu faire tester directement certains des ateliers disponibles, comme le Chronocarte, et permettre aux jeunes de manipuler les robots Thymio. Cela a été très constructif de pouvoir recueillir des avis directement auprès du public cible, ce qui nous a permis d’identifier des problèmes ou différents axes d’amélioration.", 
+          img: "/src/assets/blog/articles/robocup/robocup_stand.jpg" 
+        },
       },
-      sec3: 'Conclusion de l\'article',
+      sec3: "Ce fut un réel plaisir et un honneur de pouvoir contribuer à la réussite d'un événement d'une telle ampleur.",
     },
     images: [
-      '/src/assets/blog/articles/robocup/robocup_stand.jpg',
-      '/src/assets/blog/articles/robocup/robocup_rescueline.jpg',
       '/src/assets/blog/articles/robocup/robocup_rescuemaze.jpg',
       '/src/assets/blog/articles/robocup/robocup_soccer.jpg',
       '/src/assets/blog/articles/robocup/robocup_soccer2.jpg',
