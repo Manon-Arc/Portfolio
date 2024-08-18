@@ -6,50 +6,74 @@ export const articles = [
     title: 'Intégration aux équipe et présentation UCIA',
     date: new Date('2024-04-18'),
     content: {
-      sec1: "Introduction de l'article",
+      sec1: "Dès ma première journée de stage, j’ai été directement intégrée et présentée aux différentes équipes en participant à la réunion hebdomadaire. Cette réunion permet aux différents pôles de faire un point sur les projets en cours, leur avancement, et de discuter des événements ou interventions de la semaine. Les réunions hebdomadaires auxquelles j’ai pu participer ont été des moments clés pour comprendre l’importance de la communication et de la collaboration au sein d’un organisme.",
       sec2: {
-        sec2_1: { content: "Description de l'image 1", img: "/src/assets/blog/articles/interface1.svg" },
-        sec2_2: { content: "Description de l'image 2", img: "/src/assets/blog/articles/interface2.svg" },
-        sec2_3: { content: "Description de l'image 3", img: "/src/assets/blog/articles/interface3.svg" },
+        sec2_1: { 
+          content: "La Ligue de l’enseignement fonctionnant grâce à un système de pôles (ou secteurs), chacun constitué de membres spécialisés dans la thématique experte du pôle en question, j’ai été affecté(e) au pôle numérique. On m’a présenté plus en détail l’équipe qui le compose cette même première journée. J’ai pu alors découvrir les différents projets sur lesquels ils travaillaient à ce moment-là, mais également en apprendre davantage sur le projet sur lequel j’allais apporter mon travail.", 
+          img: "" 
+        },
+        sec2_2: { 
+          content: "Il s’agit du projet UCIA, signifiant Usages et Conscience des Intelligences Artificielles. Ce projet, en partenariat avec Poppy Station et l’INRIA, a pour objectif de sensibiliser les adolescent(e)s aux IA, de leur permettre de mieux comprendre leur fonctionnement, ainsi que leurs enjeux, mais également les dangers et opportunités qu’elles représentent. La robotique, déjà reconnue comme un moyen ludique d’apprentissage du numérique et de la programmation informatique, donne également du sens au code et permet d’interagir directement avec la réalité. Notre projet s’appuie donc sur un robot éducatif open-source, dont la perception est assurée par un système d’intelligence artificielle, manipulable et paramétrable, pour en comprendre les tenants et les aboutissants, afin d’encourager un regard critique sur l’intelligence artificielle.  ", 
+          img: "/src/assets/blog/articles/intégration_pres_UCIA/logo_UCIA.svg" 
+        },
+        sec2_3: { 
+          content: "Ce projet étant en partenariat avec des organisations renommées, j’ai eu l’occasion de discuter et de travailler avec des professionnels tels que des directeurs de recherche et des ingénieurs. Collaborer avec eux a été certes impressionnant, mais aussi extrêmement enrichissant. Ces interactions m’ont permis de voir les projets sous un angle différent et d’apprendre énormément sur les aspects techniques et éthiques de l’intelligence artificielle.", 
+          img: "/src/assets/blog/articles/intégration_pres_UCIA/collab.jpg" 
+        },
+        sec2_4: { 
+          content: "En plus de mon travail au sein du pôle numérique, j’ai également eu l’opportunité de passer du temps avec des membres des autres secteurs. J’ai participé à certaines de leurs interventions, ce qui m’a permis d’échanger avec eux et de mieux comprendre leur travail. Ces moments d’échange ont été très enrichissants et m’ont offert une vision plus globale des activités de la Ligue de l’enseignement.", 
+          img: "/src/assets/blog/articles/intégration_pres_UCIA/other_section.jpg" 
+        },
       },
-      sec3: 'Conclusion de l\'article',
+      sec3: 'En résumé, mon intégration au sein de la Ligue de l’enseignement a été une expérience humaine et professionnelle très enrichissante. J’ai non seulement acquis de nouvelles compétences, mais j’ai aussi eu la chance de rencontrer des personnes inspirantes qui m’ont beaucoup apporté sur le plan personnel et professionnel.',
     },
-    images: [
-      '/src/assets/blog/articles/qlqc',
-      '/src/assets/blog/articles/qlqc'
-    ],
+    images: [],
     video: "",
     author: {
       name: 'Manon Arcas',
       avatar: '/src/assets/blog/me.jpg'
     },
-    time: 1,
+    time: 2,
   },
   {
     id: 2,
     experienceId: 2,
-    background: '/src/assets/blog/articles/depMAJtest.jpg',
+    background: '/src/assets/blog/articles/maintenance_maj_test/depMAJtest.jpg',
     title: 'Maintenance, déploiement MAJ et tests',
     date: new Date('2024-05-03'),
     content: {
-      sec1: "Introduction de l'article",
+      sec1: "Comme mentionné dans l'un de mes précédents articles, le projet UCIA sur lequel j'ai eu l'opportunité de travailler repose sur un robot open-source et open-hardware : le ROSA. Celui-ci est composé d'un Thymio, un robot éducatif conçu par des chercheurs de l'EPFL en collaboration avec l'ECAL, et produit par l'association Mobsya, ainsi que d'un module Raspberry Pi 3A+ ou 4 avec une caméra Raspberry Pi. L'objectif de ce module est de permettre la reconnaissance d'objets via l'intelligence artificielle, afin d'influencer le comportement du robot.",
       sec2: {
-        sec2_1: { content: "Description de l'image 1", img: "/src/assets/blog/articles/interface1.svg" },
-        sec2_2: { content: "Description de l'image 2", img: "/src/assets/blog/articles/interface2.svg" },
-        sec2_3: { content: "Description de l'image 3", img: "/src/assets/blog/articles/interface3.svg" },
+        sec2_1: { 
+          content: "Durant mes premières semaines, mon travail consistait en grande partie à gérer les problèmes techniques rencontrés par les ROSA lors de leur utilisation, notamment des problèmes liés au logiciel, comme des blocages lors des mises à jour du firmware. J'étais également chargé de déployer et de tester les dernières versions du code afin de rédiger des comptes-rendus sur les correctifs à apporter, ainsi que de créer des issues sur GitHub pour assurer la conformité avec le cahier des charges. Cette étape a été cruciale pour la bonne progression du projet, mais aussi pour maintenir le lien avec les différents partenaires et suivre leur avancement.", 
+          img: "/src/assets/blog/articles/maintenance_maj_test/logo_maintenance.svg" 
+        },
+        sec2_2: { 
+          content: "Les problèmes récurrents rencontrés lors de ces tests étaient souvent liés à la reconnaissance d'objets. En effet, je me suis rapidement aperçu que l'environnement de test et l'environnement de développement n'étaient pas similaires. La luminosité, la couleur de la surface, ainsi que la taille des éléments à reconnaître étant différentes, le modèle de reconnaissance avait beaucoup de mal à fonctionner. J'ai donc pris l'initiative de réaliser une fiche technique de l'environnement fonctionnel afin de résoudre ce problème et de faciliter une meilleure communication.", 
+          img: "/src/assets/blog/articles/maintenance_maj_test/recognize_setup.jpg" 
+        },
+        sec2_3: { 
+          content: "Pendant le développement, plusieurs robots ont subi d'importantes surchauffes en raison de l'utilisation d'un modèle d'IA nécessitant trop de ressources. L'ingénieur en charge du développement a alors décidé d'héberger le modèle sur un ordinateur externe. Ce changement a nécessité plus de temps et d'efforts pour déployer cette nouvelle version, entraînant des problèmes de compatibilité. En effet, l'IA requiert de nombreuses bibliothèques Python, notamment 'pytorch'. Certains ordinateurs n'arrivaient pas à exécuter le script en raison de modules non trouvés. J'ai tenté d'installer le tout dans un environnement virtuel, mais le problème persistait. Après des recherches, j'ai finalement réalisé que la version de l'OS pouvait être à l'origine de ce problème. En effet, la majorité des ordinateurs à ma disposition fonctionnaient sous des versions de Windows antérieures à Windows 11, avec une incapacité de mise à jour en raison de l'ancienneté des composants.", 
+          img: "" 
+        },
+        sec2_4: { 
+          content: "Tout au long de ce stage, j'ai participé à plusieurs copil-techniques avec le directeur de recherche à l'INRIA pour faire régulièrement le point sur l'avancement et les problèmes. Nous nous sommes alors penchés sur la possibilité de créer un environnement de type Flatpak, mais pour Windows (le programme étant uniquement compatible avec Windows), ce qui malheureusement n'a pas abouti.", 
+          img: "/src/assets/blog/articles/maintenance_maj_test/collab.jpg" 
+        },
       },
-      sec3: 'Conclusion de l\'article',
+      sec3: "Ce projet a été une expérience particulièrement enrichissante pour moi, non seulement d'un point de vue technique, mais aussi sur le plan humain. Les défis rencontrés m'ont permis de développer ma capacité à résoudre des problèmes complexes et à m'adapter rapidement à des situations imprévues. Bien que certaines solutions n'aient pas abouti, j'ai pu tirer des leçons importantes sur la gestion des projets collaboratifs et la nécessité de maintenir une communication claire avec les différents acteurs impliqués.",
     },
     images: [
-      '/src/assets/blog/articles/qlqc',
-      '/src/assets/blog/articles/qlqc'
+      '/src/assets/blog/articles/maintenance_maj_test/recognize.png',
+      '/src/assets/blog/articles/maintenance_maj_test/schematic_rosa.png',
+      '/src/assets/blog/articles/maintenance_maj_test/bot_obj.jpg'
     ],
     video: "",
     author: {
       name: 'Manon Arcas',
       avatar: '/src/assets/blog/me.jpg'
     },
-    time: 1,
+    time: 2,
   },
   {
     id: 3,
@@ -68,7 +92,7 @@ export const articles = [
           img: "/src/assets/blog/articles/robocup/robocup_rescueline.jpg" 
         },
         sec2_3: { 
-          content: "Pour la deuxième année consécutive, j'ai eu l'honneur de participer en tant que jurée pour l'épreuve Rescue Line, mais également en tant qu'animatrice de stand pour la Ligue de l'Enseignement - Fédération Gironde. Cet événement a été l'occasion de présenter au grand public le projet UCIA, sur lequel j’ai travaillé durant ces trois mois de stage. Sur le stand, nous avons pu faire tester directement certains des ateliers disponibles, comme le Chronocarte, et permettre aux jeunes de manipuler les robots Thymio. Cela a été très constructif de pouvoir recueillir des avis directement auprès du public cible, ce qui nous a permis d’identifier des problèmes ou différents axes d’amélioration.", 
+          content: "Pour la deuxième année consécutive, j'ai eu l'honneur de participer en tant que jurée pour l'épreuve Rescue Line, mais également en tant qu'animatrice de stand pour la Ligue de l'Enseignement. Cet événement a été l'occasion de présenter au grand public le projet UCIA, sur lequel j’ai travaillé durant ces trois mois de stage. Sur le stand, nous avons pu faire tester directement certains des ateliers disponibles, comme le Chronocarte, et permettre aux jeunes de manipuler les robots Thymio. Cela a été très constructif de pouvoir recueillir des avis directement auprès du public cible, ce qui nous a permis d’identifier des problèmes ou différents axes d’amélioration.", 
           img: "/src/assets/blog/articles/robocup/robocup_stand.jpg" 
         },
       },
@@ -86,7 +110,7 @@ export const articles = [
       name: 'Manon Arcas',
       avatar: '/src/assets/blog/me.jpg'
     },
-    time: 1,
+    time: 2,
   },
   {
     id: 4,
@@ -155,19 +179,20 @@ export const articles = [
     images: [
       '/src/assets/blog/articles/restitution_UCIA/debat.png',
       '/src/assets/blog/articles/restitution_UCIA/demo_bot.JPG',
+      '/src/assets/blog/articles/restitution_UCIA/mise_en_place.jpg',
       '/src/assets/blog/articles/restitution_UCIA/demo_bot_2.png',
       '/src/assets/blog/articles/restitution_UCIA/demo_interface2.JPG',
       '/src/assets/blog/articles/restitution_UCIA/presentation_script_IA.png',
       '/src/assets/blog/articles/restitution_UCIA/presentation_script_IA_2.JPG',
       '/src/assets/blog/articles/restitution_UCIA/presentation_script_IA_3.png',
-      '/src/assets/blog/articles/restitution_UCIA/reconnaissance.JPG'
+      '/src/assets/blog/articles/restitution_UCIA/reconnaissance.JPG',
     ],
     video: "",
     author: {
       name: 'Manon Arcas',
       avatar: '/src/assets/blog/me.jpg'
     },
-    time: 2,
+    time: 3,
   },
   {
     id: 6,
@@ -200,6 +225,6 @@ export const articles = [
       name: 'Manon Arcas',
       avatar: '/src/assets/blog/me.jpg'
     },
-    time: 1,
+    time: 2,
   },
 ];
