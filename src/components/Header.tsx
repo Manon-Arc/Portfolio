@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import '../style/components/Header.css';
 import '../style/style_gen.css';
-import portfolioLogo from '../assets/portfolio.svg';
+import portfolioLogo from '/assets/portfolio.svg';
 
 const Header = () => {
   const location = useLocation();

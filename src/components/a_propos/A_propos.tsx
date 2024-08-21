@@ -1,6 +1,7 @@
 import '../../style/components/A_propos.css';
 import '../../style/style_gen.css';
-import me from '../../assets/a_propos/me.jpg';
+import me from '/assets/a_propos/me.jpg';
+import CV from '/assets/CV.pdf';
 
 const A_propos = () => {
   return (
@@ -24,7 +25,7 @@ const A_propos = () => {
 					<p className="txt">Toujours curieuse et avide de nouvelles connaissances, je cherche constamment à élargir mes compétences et à m'impliquer dans des projets innovants. Mon objectif professionnel est de continuer à évoluer dans le secteur technologique, en relevant de nouveaux défis et en apportant des solutions créatives et efficaces.</p>
 				</div>
 			</div>
-			<a href="../../src/assets/CV.pdf" target="_blank">
+			<a href={CV} target="_blank">
 				<div className="btn cv">
 					<p className="txt-btn">Télécharger mon CV</p>
 				</div>

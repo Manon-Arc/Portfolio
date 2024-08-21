@@ -1,10 +1,10 @@
 import '../style/components/Footer.css';
 import '../style/style_gen.css';
-import linkedinLogo from '../assets/footer/linkedin.png';
-import gitLogo from '../assets/footer/git.png';
-import callLogo from '../assets/footer/call.png';
-import emailLogo from '../assets/footer/arroba.png';
-import circuitFooter from '../assets/footer/circuit.png';
+import linkedinLogo from '/assets/footer/linkedin.png';
+import gitLogo from '/assets/footer/git.png';
+import callLogo from '/assets/footer/call.png';
+import emailLogo from '/assets/footer/arroba.png';
+import circuitFooter from '/assets/footer/circuit.png';
 
 const Footer = () => {
   return (

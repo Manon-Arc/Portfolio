@@ -8,7 +8,7 @@ export const formations = [
     media: {
       name: "deBaudre",
       source: {
-        url: "/src/assets/a_propos/deBaudre.png"
+        url: "/assets/a_propos/deBaudre.png"
       },
       type: "IMAGE"
     }
@@ -22,7 +22,7 @@ export const formations = [
     media: {
       name: "ynov",
       source: {
-        url: "/src/assets/a_propos/ynov.svg"
+        url: "/assets/a_propos/ynov.svg"
       },
       type: "IMAGE"
     }
@@ -36,7 +36,7 @@ export const formations = [
     media: {
       name: "opquast",
       source: {
-        url: "/src/assets/a_propos/opquast.png"
+        url: "/assets/a_propos/opquast.png"
       },
       type: "IMAGE"
     }

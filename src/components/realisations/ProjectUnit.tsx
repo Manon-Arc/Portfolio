@@ -1,5 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import "../../style/components/ProjectUnit.css";
+import Plus from '/assets/realisations/plus.png';
+import Coding_white from '/assets/realisations/coding_white.png';
+import Software from '/assets/realisations/software.png';
+import Feature from '/assets/realisations/feature.png';
+import Team from '/assets/realisations/user.png';
 import { addOpacityListeners } from '../../js/addOpacityListener.ts';
 
 interface ProjectUnitProps {
@@ -54,24 +59,24 @@ const ProjectUnit: React.FC<ProjectUnitProps> = ({
             <div ref={desc} className={`project-desc ${proj}`}>
               <p className="txt">{description}</p>
               <div className="btn-more">
-                <img src="/src/assets/realisations/plus.png" alt="plus" />
+                <img src={Plus} alt="plus" />
               </div>
             </div>
             <div ref={detail} className={`project-detail ${proj}`}>
               <div className="first-line">
                 {languages && (
                   <div className="language">
-                    <img className="pic-project-prez" src="/src/assets/realisations/coding_white.png" alt="coding" />
+                    <img className="pic-project-prez" src={Coding_white} alt="coding" />
                     <p className="txt">{languages}</p>
                   </div>
                 )}
                 <div className="software">
-                  <img className="pic-project-prez" src="/src/assets/realisations/software.png" alt="software" />
+                  <img className="pic-project-prez" src={Software} alt="software" />
                   <p className="txt">{software}</p>
                 </div>
               </div>
               <div className="features">
-                <img className="pic-project-prez" src="/src/assets/realisations/feature.png" alt="features" />
+                <img className="pic-project-prez" src={Feature} alt="features" />
                 <p className="txt">
                   {features.map((feature, index) => (
                     <span key={index}>{feature}</span>
@@ -79,7 +84,7 @@ const ProjectUnit: React.FC<ProjectUnitProps> = ({
                 </p>
               </div>
               <div className="team">
-                <img className="pic-project-prez" src="/src/assets/realisations/user.png" alt="team" />
+                <img className="pic-project-prez" src={Team} alt="team" />
                 <p className="txt">{team}</p>
               </div>
               <div ref={link} className={`link-zone ${proj}`}>
@@ -111,24 +116,24 @@ const ProjectUnit: React.FC<ProjectUnitProps> = ({
             <div ref={desc} className={`project-desc project-desc-${className} ${proj}`}>
               <p className="txt">{description}</p>
               <div className="btn-more">
-                <img src="/src/assets/realisations/plus.png" alt="plus" />
+                <img src={Plus} alt="plus" />
               </div>
             </div>
             <div ref={detail} className={`project-detail project-detail-${className} ${proj}`}>
               <div className="first-line">
                 {languages && (
                   <div className="language">
-                    <img className="pic-project-prez" src="/src/assets/realisations/coding_white.png" alt="coding" />
+                    <img className="pic-project-prez" src={Coding_white} alt="coding" />
                     <p className="txt">{languages}</p>
                   </div>
                 )}
                 <div className="software">
-                  <img className="pic-project-prez" src="/src/assets/realisations/software.png" alt="software" />
+                  <img className="pic-project-prez" src={Software} alt="software" />
                   <p className="txt">{software}</p>
                 </div>
               </div>
               <div className="features">
-                <img className="pic-project-prez" src="/src/assets/realisations/feature.png" alt="features" />
+                <img className="pic-project-prez" src={Feature} alt="features" />
                 <p className="txt">
                   {features.map((feature, index) => (
                     <span key={index}>{feature}</span>
@@ -136,7 +141,7 @@ const ProjectUnit: React.FC<ProjectUnitProps> = ({
                 </p>
               </div>
               <div className="team">
-                <img className="pic-project-prez" src="/src/assets/realisations/user.png" alt="team" />
+                <img className="pic-project-prez" src={Team} alt="team" />
                 <p className="txt">{team}</p>
               </div>
               <div ref={link} className={`link-zone ${proj}`}>

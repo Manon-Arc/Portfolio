@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import emailjs from "@emailjs/browser";
-import Plane from '../../assets/contact/plane.svg';
+import Plane from '/assets/contact/plane.svg';
 import '../../style/components/Mailbox.css';
 import '../../style/style_gen.css';
 

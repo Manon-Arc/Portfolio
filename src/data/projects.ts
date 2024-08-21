@@ -8,7 +8,7 @@ export const projects = [
                         manipuler les propriétés\n de l'objet 3D, telles que sa position, sa rotation\
                         et d'instancier des GameObjects, tandis\n qu' Unity est utilisé pour visualiser l'objet 3D et\
                         appliquer les modifications en temps réel.\n",
-    imageUrl: "/src/assets/realisations/projects/Ihm_unity.png",
+    imageUrl: "/assets/realisations/projects/Ihm_unity.png",
     languages: "C++, C#",
     software: "Qt, Unity, Figma",
     features: [
@@ -28,7 +28,7 @@ export const projects = [
     proj: "weatherapp",
     title: "WeatherApp",
     description: "Création d'une application météo.",
-    imageUrl: "/src/assets/realisations/projects/weatherapp_home.png",
+    imageUrl: "/assets/realisations/projects/weatherapp_home.png",
     languages: "C#, Avalonia",
     software: "",
     features: [
@@ -48,7 +48,7 @@ export const projects = [
                         L'utilisateur incarne un joueur appartenant à une classe de son choix\
                         dont le but est de sortir victorieux d'un donjon de 10 étages remplis de\
                         monstres.",
-    imageUrl: "/src/assets/realisations/projects/danmashi_start.png",
+    imageUrl: "/assets/realisations/projects/danmashi_start.png",
     languages: "Python",
     software: "",
     features: [
@@ -67,7 +67,7 @@ export const projects = [
     proj: "IA",
     title: "Détection d'objet par IA",
     description: "Manipulation et entraînement d'un modèle d'apprentissage basé sur un réseau de neurones convolutifs (CNN) afin de réaliser une détection d'objet par IA",
-    imageUrl: "/src/assets/realisations/projects/IA.svg",
+    imageUrl: "/assets/realisations/projects/IA.svg",
     languages: "Jupyter Notebook, Python, Flask",
     software: "Yolo v8",
     features: [
@@ -84,7 +84,7 @@ export const projects = [
     proj: "appOsyris",
     title: "Application Osyris",
     description: "Création d'une application de gestion associative.",
-    imageUrl: "/src/assets/realisations/projects/osyris_app.png",
+    imageUrl: "/assets/realisations/projects/osyris_app.png",
     languages: "React Native",
     software: "Figma",
     features: [
@@ -103,7 +103,7 @@ export const projects = [
     title: "Dashboard Netflix",
     description: "Ce projet vise à fournir un tableau de bord web intéractif pour afficher\
                         les films et séries<br> TV disponibles sur Netflix ainsi que leurs caractéristiques.",
-    imageUrl: "/src/assets/realisations/projects/dashboard.png",
+    imageUrl: "/assets/realisations/projects/dashboard.png",
     languages: "Python, Django",
     software: "Figma",
     features: [
@@ -120,7 +120,7 @@ export const projects = [
     proj: "flipper",
     title: "Flipper mobile",
     description: "Création d'une application de flipper sur mobile.",
-    imageUrl: "/src/assets/realisations/projects/flipper.png",
+    imageUrl: "/assets/realisations/projects/flipper.png",
     languages: "C#",
     software: "Unity",
     features: [
@@ -139,7 +139,7 @@ export const projects = [
     proj: "escape",
     title: "Escape game en CLI",
     description: "Escape Game dans le terminal, plusieurs options à dispositions pour intéragir avec<br> les différents éléments de l'environnement, afin de résoudre une intrigue.",
-    imageUrl: "/src/assets/realisations/projects/escape.png",
+    imageUrl: "/assets/realisations/projects/escape.png",
     languages: "Python",
     software: "",
     features: [
@@ -155,7 +155,7 @@ export const projects = [
     proj: "endless",
     title: "Endless runner",
     description: "Création d'un jeu de type 'Endless runner'",
-    imageUrl: "/src/assets/realisations/projects/endless.png",
+    imageUrl: "/assets/realisations/projects/endless.png",
     languages: "C#",
     software: "Unity",
     features: [
@@ -174,7 +174,7 @@ export const projects = [
     proj: "domolabo",
     title: "Domolabo",
     description: "Création d'un système domotique de l'applications jusqu'aux objets connectés incluant le hub.",
-    imageUrl: "/src/assets/realisations/projects/domolabo.png",
+    imageUrl: "/assets/realisations/projects/domolabo.png",
     languages: "Python / micropython, C#, Xamarin<, SQL",
     software: "Fusion360 / Kicad / Figma",
     features: [
@@ -191,7 +191,7 @@ export const projects = [
     proj: "coffre",
     title: "Coffre connecté",
     description: "Prototype de coffre à authentification multiples.",
-    imageUrl: "/src/assets/realisations/projects/coffre.png",
+    imageUrl: "/assets/realisations/projects/coffre.png",
     languages: "Python / micropython",
     software: "Fusion360 / Kicad",
     features: [
@@ -207,7 +207,7 @@ export const projects = [
     proj: "marcus",
     title: "Marcus",
     description: "Création d'un prototype de robot pompier en 5 jours lors d'un Hackaton.",
-    imageUrl: "/src/assets/realisations/projects/marcus.png",
+    imageUrl: "/assets/realisations/projects/marcus.png",
     languages: "Python / micropython",
     software: "Fusion360 / Kicad",
     features: [
@@ -230,7 +230,7 @@ export const projects = [
                         - Mazerush : sortir le plus vite possible d'un labyrinthe (autonome),\
                         - Tower défense : récupérer des palets et les ramener dans notre zone (bonus si empilé).\
                         Évenement ouvert au public ayant rassemblé 300 spectateurs.",
-    imageUrl: "/src/assets/realisations/projects/robolympiades.png",
+    imageUrl: "/assets/realisations/projects/robolympiades.png",
     languages: "Python / micropython, HTML, CSS, Javascript, SQLite",
     software: "Fusion360 / Kicad",
     features: [
@@ -248,7 +248,7 @@ export const projects = [
     proj: "assistant",
     title: "Assistant mobile sur rail",
     description: "Prototype de robot assistant mobile sur rail. Ce robot peut être utilisé comme une troisième main, un support d'outils ou un dispositif de rangement.",
-    imageUrl: "/src/assets/realisations/projects/assistant.png",
+    imageUrl: "/assets/realisations/projects/assistant.png",
     languages: "Python / micropython",
     software: "Fusion360 / Kicad",
     features: [
@@ -264,7 +264,7 @@ export const projects = [
     proj: "mecanum",
     title: "Robot mecanum",
     description: "Prototype de robot mécanum télécommandé.",
-    imageUrl: "/src/assets/realisations/projects/holonome.png",
+    imageUrl: "/assets/realisations/projects/holonome.png",
     languages: "Python / micropython, HTML, CSS, Javascript",
     software: "Fusion360 / Kicad",
     features: [
@@ -280,7 +280,7 @@ export const projects = [
     proj: "bb8",
     title: "BB8",
     description: "Prototype de sphère roulante inspiré de BB8.",
-    imageUrl: "/src/assets/realisations/projects/BB8.png",
+    imageUrl: "/assets/realisations/projects/BB8.png",
     languages: "Python / micropython",
     software: "Fusion360 / Kicad",
     features: [
@@ -295,7 +295,7 @@ export const projects = [
     proj: "moduleESP",
     title: "Module ESP32",
     description: "Conception sur mesure d'un module ESP32.",
-    imageUrl: "/src/assets/realisations/projects/esp323D.png",
+    imageUrl: "/assets/realisations/projects/esp323D.png",
     software: "Circuit Maker / Altium Designer",
     features: [
       "Microcontrôleur : ESP32-WROOM-32U",
@@ -311,7 +311,7 @@ export const projects = [
     proj: "bluetooth",
     title: "Module bluetooth",
     description: "Conception sur mesure d'un module bluetooth.",
-    imageUrl: "/src/assets/realisations/projects/bluletooth3D.png",
+    imageUrl: "/assets/realisations/projects/bluletooth3D.png",
     languages: "",
     software: "Circuit Maker / Altium Designer",
     features: [

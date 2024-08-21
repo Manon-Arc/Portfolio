@@ -1,8 +1,8 @@
 export const experiences = [
 	{
 		id: 1,
-		backpicUrl: '/src/assets/experiences/card_back.svg',
-		logoUrl: '/src/assets/experiences/ynov.svg',
+		backpicUrl: '/assets/experiences/card_back.svg',
+		logoUrl: '/assets/experiences/ynov.svg',
 		companyName: 'Bordeaux Ynov Campus',
 		jobTitle: 'Stagiaire en Fablab',
 		duration: '15/05/2023 - 30/06/2023',
@@ -21,8 +21,8 @@ export const experiences = [
 	},
 	{
 		id: 2,
-		backpicUrl: '/src/assets/experiences/card_back_leg.jpg',
-		logoUrl: '/src/assets/experiences/leg.png',
+		backpicUrl: '/assets/experiences/card_back_leg.jpg',
+		logoUrl: '/assets/experiences/leg.png',
 		companyName: "Ligue de l'enseignement - Fédération Gironde",
 		jobTitle: 'Stagiaire partie technique pôle numérique',
 		duration: '08/04/2024 - 05/07/2024',

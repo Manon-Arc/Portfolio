@@ -9,11 +9,11 @@
 }
 
 .G {
-    background-image: url(../../assets/realisations/projUnitG.svg);
+    background-image: url(/assets/realisations/projUnitG.svg);
 }
 
 .D {
-    background-image: url(../../assets/realisations/projUnitD.svg);
+    background-image: url(/assets/realisations/projUnitD.svg);
 }
 
 .pic-project a{
@@ -66,7 +66,6 @@
 
 .project-desc-D {
     padding-top: 12dvh;
-
     margin-left: 5dvw;
 }
 

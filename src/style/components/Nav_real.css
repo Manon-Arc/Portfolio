@@ -13,3 +13,7 @@
     width: 2px;
     background-color: var(--main-green);
 }
+
+.category-item {
+    cursor: pointer;
+}

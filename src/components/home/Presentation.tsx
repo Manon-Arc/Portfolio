@@ -1,6 +1,7 @@
 import '../../style/components/Presentation.css';
 import '../../style/style_gen.css';
-import logo from '../../assets/portfolio.svg';
+import logo from '/assets/portfolio.svg';
+import CV from '/assets/CV.pdf';
 
 const A_propos = () => {
   return (
@@ -24,7 +25,7 @@ const A_propos = () => {
 					<p className="txt">Merci de votre visite ! N'hésitez pas à me contacter pour toute opportunité de collaboration ou pour en savoir plus sur mon parcours professionnel.</p>
 				</div>
 			</div>
-			<a href="../../src/assets/CV.pdf" target="_blank">
+			<a href={CV} target="_blank">
 				<div className="btn cv">
 					<p className="txt-btn">Télécharger mon CV</p>
 				</div>

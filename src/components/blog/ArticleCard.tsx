@@ -1,14 +1,21 @@
 import React from 'react';
 import { Card, CardContent, CardMedia, Typography, Box, CardActions, Button, Avatar } from '@mui/material';
 
+interface Author {
+	name: string;
+	avatar: string;
+}
+
 interface ArticleCardProps {
     id: number;
     image: string;
     title: string;
     date: string;
+    author: Author;
+
 }
 
-const ArticleCard: React.FC<ArticleCardProps> = ({ id, image, title, date }) => (
+const ArticleCard: React.FC<ArticleCardProps> = ({ id, image, title, date, author }) => (
     <Card sx={{ width: 360, maxWidth: 380, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', transition: 'transform 0.3s ease-in-out', '&:hover': { transform: 'scale(1.03)' } }}>
         <CardMedia
             component="img"
@@ -16,8 +23,8 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ id, image, title, date }) => 
             image={image}
             alt={title}
             sx={{
-                backgroundColor: 'rgb(24, 29, 29)', // Blanc avec 50% de transparence
-                objectFit: 'cover' // Assure que l'image couvre entièrement le composant
+                backgroundColor: 'rgb(24, 29, 29)',
+                objectFit: 'cover'
             }}
         />
         <CardContent
@@ -50,7 +57,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ id, image, title, date }) => 
                 }}
             >
                 <a href="/a_propos" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
-                    <Avatar alt="Manon Arcas" src="/src/assets/blog/me.jpg" sx={{ width: 35, height: 35, mr: 1 }} />
+                    <Avatar alt={author.name} src={author.avatar} sx={{ width: 35, height: 35, mr: 1 }} />
                     <Typography variant="body2" color="var(--txt)">
                         Par Manon Arcas
                     </Typography>

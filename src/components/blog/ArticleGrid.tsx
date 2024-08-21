@@ -16,6 +16,7 @@ const ArticleGrid = () => {
               id={article.id}
               image={article.background}
               title={article.title}
+              author={article.author}
               date={article.date.toLocaleDateString('fr-FR', {
                 year: 'numeric',
                 month: 'long',

@@ -31,6 +31,7 @@ const EntrepriseArticleGrid: React.FC<CompanyArticlesProps> = ({ companyName, id
                     {Articles.map((article, index) => (
                         <Grid item xs={12} sm={6} md={4} key={index} sx={{ display: 'flex', justifyContent: 'center' }}>
                             <ArticleCard
+                                author={article.author}
                                 id={article.id}
                                 image={article.background}
                                 title={article.title}
