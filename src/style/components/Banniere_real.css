@@ -12,7 +12,7 @@
 }
 
 .banniere-pic-real {
-    background-image: url(../../assets/realisations/bannière.svg);
+    background-image: url(/assets/realisations/bannière.svg);
     background-repeat: no-repeat;
     background-size: cover;
     flex-grow: 1;

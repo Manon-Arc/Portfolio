@@ -12,7 +12,7 @@
 }
 
 .banniere-pic-blog {
-    background-image: url(../../assets/blog/banniere.jpg);
+    background-image: url(/assets/blog/banniere.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 45%;
