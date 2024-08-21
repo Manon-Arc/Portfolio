@@ -4,7 +4,6 @@ FROM node:18-alpine as build
 WORKDIR /app
 
 COPY package-lock.json ./
-
 COPY package.json ./
 
 RUN npm install
@@ -18,9 +17,9 @@ FROM nginx:alpine
 
 COPY --from=build /app/dist /usr/share/nginx/html
 
-# Copy the custom Nginx configuration file
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Copier la configuration Nginx pour servir l'application
+COPY nginx.conf /etc/nginx/conf.d/
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD ["nginx", "-g", "daemon off;"]
