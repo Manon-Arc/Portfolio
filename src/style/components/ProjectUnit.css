@@ -63,6 +63,9 @@
     z-index: 2;
     transition: all ease-in-out 0.2s;
 }
+.project-desc p {
+    width: 90%;
+}
 
 .project-desc-D {
     padding-top: 12dvh;

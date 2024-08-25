@@ -5,9 +5,13 @@ import '../../style/components/ExperienceList.css';
 import '../../style/style_gen.css';
 
 const ExperienceList: React.FC = () => {
+
+  const sortedExperiences = experiences.sort((a, b) => b.id - a.id);
+
+
   return (
     <div className="experiences-list">
-      {experiences.map(experience => (
+      {sortedExperiences.map(experience => (
         <ExperienceCard 
           key={experience.id}
           id={experience.id}

@@ -102,7 +102,7 @@ export const projects = [
     proj: "dashboard",
     title: "Dashboard Netflix",
     description: "Ce projet vise à fournir un tableau de bord web intéractif pour afficher\
-                        les films et séries<br> TV disponibles sur Netflix ainsi que leurs caractéristiques.",
+                        les films et séries TV disponibles sur Netflix ainsi que leurs caractéristiques.",
     imageUrl: "/assets/realisations/projects/dashboard.png",
     languages: "Python, Django",
     software: "Figma",

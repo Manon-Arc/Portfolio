@@ -20,7 +20,7 @@
 }
 
 #animation_machine {
-  display: inline-block;
+  display: flex;
   white-space: nowrap;
   overflow: hidden;
   height: 8vh;
@@ -28,6 +28,7 @@
   padding: 0;
   border-right: 2px solid white;
   animation: cursor 0.5s infinite alternate;
+  align-items: center;
 }
 
 @keyframes cursor {
