@@ -18,7 +18,7 @@ FROM nginx:alpine
 COPY --from=build /app/dist /usr/share/nginx/html
 
 # Copier la configuration Nginx pour servir l'application
-COPY nginx.conf /etc/nginx/conf.d/
+COPY ./infra/nginx.conf /etc/nginx/conf.d/
 
 EXPOSE 8080
 
