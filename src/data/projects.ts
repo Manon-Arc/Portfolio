@@ -148,7 +148,7 @@ export const projects = [
       "Plusieurs fins disponibles."
     ],
     team: "Individuel",
-    projectLink: "https://github.com/Manon-Arc/BB8"
+    projectLink: ""
   },
   {
     className: "G",
